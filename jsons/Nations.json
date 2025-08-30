@@ -151,7 +151,7 @@
 		"uniqueName": "Gifts of the Nile",
 		"uniques": [
 			"[+20]% Production when constructing [All] wonders [in all cities] <during a Golden Age>",
-			"[+1 Production] from [River] tiles [in all cities]"
+			"[+1 Production] from [{non-[Hill]} {River}] tiles [in all cities]"
 		],
 		"cities": [
 			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
