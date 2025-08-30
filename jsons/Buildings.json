@@ -355,7 +355,7 @@
 	{
 		"name": "Market",
 		"requiredBuilding": "Specialisation - Commercial",
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
