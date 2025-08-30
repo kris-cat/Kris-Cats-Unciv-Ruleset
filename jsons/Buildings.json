@@ -359,6 +359,21 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
+		"uniques": [
+			"Only available <in cities without a [Emporium]>"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Emporium",
+		"requiredBuilding": "Specialisation - Commercial",
+		"gold": 2,
+		"percentStatBonus": {"gold": 15},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] <for every [Influence Points]>",
+			"Only available <in cities without a [Market]>"
+		],
 		"requiredTech": "Trade"
 	},
 	{
@@ -372,6 +387,7 @@
 		"percentStatBonus": {"gold": 15},
 		"uniques": [
 			"[+1 Culture] per [8] population [in this city]",
+			"Only available <in cities without a [Emporium]>"
 		],
 		"requiredTech": "Trade"
 	},
