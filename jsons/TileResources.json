@@ -336,13 +336,17 @@
 		"uniques": ["Agricultural Resource",
 			"Generated on every [20] tiles <in [{Forest} {Grassland}] tiles>",
 			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated near City States with weight [15]"
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Plains] tiles>",
+			"Doesn't generate naturally <in [Desert] tiles>",
+			"Doesn't generate naturally <in [Tundra] tiles>",
+			"Doesn't generate naturally <in [Snow] tiles>",
 		]
 	},
 	{
 		"name": "Tea",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland"],
 		"gold": 1,
 		"culture": 1,
 		"improvement": "Plantation",
@@ -350,7 +354,11 @@
 			"Generated on every [15] tiles <in [{Hill} {Grassland}] tiles>",
 			"Generated on every [25] tiles <in [Grassland] tiles>",
 			"Generated with weight [10] <in [Hill] Regions>",
-			"Generated near City States with weight [15]"
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Plains] tiles>",
+			"Doesn't generate naturally <in [Desert] tiles>",
+			"Doesn't generate naturally <in [Tundra] tiles>",
+			"Doesn't generate naturally <in [Snow] tiles>",
 		]
 	},
 	{
