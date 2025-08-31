@@ -155,6 +155,20 @@
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
 	{
+		"name": "Clay",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"culture": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [25] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [25] tiles <in [{Featureless} {Fresh Water} {Plains}] tiles>",
+			"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
+		]
+	},
+	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
