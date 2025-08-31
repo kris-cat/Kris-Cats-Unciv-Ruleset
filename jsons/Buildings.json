@@ -371,7 +371,7 @@
 		"percentStatBonus": {"gold": 15},
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Gold] <for every [Influence Points]>",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
 			"Only available <in cities without a [Market]>"
 		],
 		"requiredTech": "Trade"
