@@ -235,6 +235,23 @@
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
+		"name": "Swamp",
+		"type": "TerrainFeature",
+		"production": 1,
+		"food": -1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": 0.45,
+		"occursOn": ["Marsh"],
+		"uniques": ["Rough terrain", "Vegetation",
+			"Rare feature",
+			"[-1] to Fertility for Map Generation",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+		]
+	},
+	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"movementCost": 2,
