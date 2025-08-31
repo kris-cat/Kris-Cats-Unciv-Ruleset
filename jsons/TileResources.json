@@ -123,10 +123,27 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"food": 1,
 		"improvement": "Farm",
+		"improvementStats": {"gold": 1, "food": -1},
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
+		]
+	},
+	{
+		"name": "Flax",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["River"],
+		"production": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"production": 1, "gold": -1,},
+		"uniques": [
+			"Agricultural Resource",
+			"Generated on every [20] tiles <in [River] tiles>",
+			"Generated with weight [10] <in [Flood plains] tiles>",
+			"Doesn't generate naturally <in [Hill] tiles>",
+			"Doesn't generate naturally <in [Tundra] tiles>",
+			"Doesn't generate naturally <in [Snow] tiles>",
 		]
 	},
 	{
