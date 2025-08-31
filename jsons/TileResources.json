@@ -154,7 +154,7 @@
 	{
 		"name": "Lake Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lake"],
+		"terrainsCanBeFoundOn": ["Lakes"],
 		"faith": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
