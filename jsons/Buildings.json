@@ -193,13 +193,14 @@
 		]
 	},
 	{
-		"name": "Stable",
+		"name": "Barn",
+		"food": 1,
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production] from [Pasture] tiles [in this city]"
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]"
 		]
 		"requiredTech": "Animal Husbandry"
 	},
@@ -444,12 +445,46 @@
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
+		"production": 1,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] XP [in this city]",
+			"Only available <in cities without a [Stable]>",
+			"Only available <in cities without a [Target Range]>",
+			"New [Sword] units start with [15] XP [in this city]",
+			"[+15]% Production when constructing [Sword] units [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Organised Warfare"
+	},
+	{
+		"name": "Stable",
+		"production": 1,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities without a [Barracks]>",
+			"Only available <in cities without a [Target Range]>",
+			"New [Mounted] units start with [15] XP [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Horse] tiles [in this city]",
+			"Destroyed when the city is captured"
+		]
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Target Range",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <in cities without a [Barracks]>",
+			"Only available <in cities without a [Stable]>",
+			"New [Archery] units start with [15] XP [in this city]",
+			"[+15]% Production when constructing [Archery] units [in this city]",
+			"Destroyed when the city is captured"
+		]
+		"requiredTech": "Horseback Riding"
 	},
 	//Classical Era - First Column
 	{
