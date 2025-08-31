@@ -242,7 +242,7 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": 0.45,
-		"occursOn": ["Marsh"],
+		"occursOn": ["Grassland","Marsh"],
 		"uniques": ["Rough terrain", "Vegetation",
 			"Rare feature",
 			"[-1] to Fertility for Map Generation",
