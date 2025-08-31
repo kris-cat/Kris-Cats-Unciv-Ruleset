@@ -61,8 +61,8 @@
 		"improvementStats": {"food": 1},
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [25] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Generated on every [20] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
+			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+			"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
 		]
 	},
 	{
@@ -108,13 +108,13 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Marsh"],
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
-			"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles> <in [Hill] Regions>"
+			"Generated on every [10] tiles <in [Marsh] tiles> <in [Fresh Water] tiles>",
+			"Generated on every [10] tiles <in [Marsh] tiles> <in tiles without [Fresh Water]>"
 		]
 	},
 	{
@@ -125,8 +125,8 @@
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
-			"Generated on every [30] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
+			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
 		]
 	},
 	{
@@ -159,9 +159,9 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [40] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [45] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [50] tiles <in [{Featureless} {Grassland}] tiles>"
+			"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [23] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles>"
 		]
 	},
 	{
@@ -172,8 +172,8 @@
 		"improvement": "Mine",
 		"improvementStats": {"science": 1},
 		"uniques": [
-			"Generated on every [50] tiles <in [{Hill} {Grassland}] tiles>",
-			"Generated on every [50] tiles <in [{Hill} {Plains}] tiles>",
+			"Generated on every [27] tiles <in [{Hill} {Grassland}] tiles>",
+			"Generated on every [27] tiles <in [{Hill} {Plains}] tiles>",
 		]
 	},
 	// Strategic Resources
