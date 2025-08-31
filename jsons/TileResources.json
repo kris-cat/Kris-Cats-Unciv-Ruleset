@@ -136,6 +136,7 @@
 		"terrainsCanBeFoundOn": ["Flood plains"],
 		"production": 1,
 		"improvement": "Plantation",
+		"improvementStats": {"production": 1, "gold": -1},
 		"uniques": [
 			"Agricultural Resource",
 			"Generated on every [20] tiles <in [Flood plains] tiles>",
@@ -361,7 +362,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"gold": 1,
-		"culture": 1,
+		"science": 1,
 		"improvement": "Plantation",
 		"uniques": ["Agricultural Resource",
 			"Generated on every [15] tiles <in [{Hill} {Grassland}] tiles>",
