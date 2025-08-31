@@ -241,7 +241,7 @@
 		"food": -1,
 		"movementCost": 1,
 		"unbuildable": true,
-		"defenceBonus": 0.30,
+		"defenceBonus": 0.25,
 		"occursOn": ["Grassland","Marsh"],
 		"uniques": ["Rough terrain", "Vegetation",
 			"Rare feature",
