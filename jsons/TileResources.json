@@ -152,6 +152,17 @@
 		]
 	},
 	{
+		"name": "Lake Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lake"],
+		"faith": 1,
+		"improvement": "Fishing Boats",
+		"uniques": [
+			"Fishing Resource",
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
+		]
+	},
+	{
 		"name": "Bison",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Tundra"],
