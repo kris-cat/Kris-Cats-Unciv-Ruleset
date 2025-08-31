@@ -133,16 +133,13 @@
 	{
 		"name": "Flax",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Fresh Water"],
+		"terrainsCanBeFoundOn": ["Flood plains"],
 		"production": 1,
 		"improvement": "Plantation",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [20] tiles <in [Fresh Water] tiles>",
-			"Generated with weight [10] <in [Flood plains] tiles>",
-			"Doesn't generate naturally <in [Hill] tiles>",
+			"Generated on every [20] tiles <in [Flood plains] tiles>",
 			"Doesn't generate naturally <in [Tundra] tiles>",
-			"Doesn't generate naturally <in [Snow] tiles>",
 		]
 	},
 	{
