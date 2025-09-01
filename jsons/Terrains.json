@@ -242,7 +242,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
+		"occursOn": ["Grassland","Wetland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
@@ -401,7 +401,7 @@
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
 			"Must be adjacent to [0] [Mountain] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Wetland] tiles",
 			"Must be adjacent to [0] to [2] [Hill] tiles",
 			"Must not be on [1] largest landmasses"],
 		"turnsInto": "Mountain",
@@ -471,7 +471,7 @@
 		"happiness": 2,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Wetland] tiles",
 			"Must be adjacent to [0] to [1] [Desert] tiles",
 			"Must be adjacent to [4] to [6] [Elevated] tiles"],
 		"turnsInto": "Mountain",
@@ -487,7 +487,7 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Wetland] tiles",
 			"Must be adjacent to [3] to [6] [Desert] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -503,7 +503,7 @@
 		"occursOn": ["Plains","Grassland"],
 		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Wetland] tiles",
 			"Must not be on [1] largest landmasses"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -519,7 +519,7 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Wetland] tiles",
 			"Must be adjacent to [3] to [6] [Plains] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
