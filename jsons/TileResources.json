@@ -115,7 +115,7 @@
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [50] tiles <in [{Grassland} {Fresh Water}] tiles>",
+			"Generated on every [150] tiles <in [{Grassland} {Fresh Water}] tiles>",
 			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
 		]
 	},
@@ -164,9 +164,9 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [30] tiles <in [{Grassland} {Fresh Water}] tiles>",
-			"Generated on every [35] tiles <in [{Plains} {Fresh Water}] tiles>",
-			"Generated on every [40] tiles <in [{Tundra} {Fresh Water}] tiles>",
+			"Generated on every [130] tiles <in [{Grassland} {Fresh Water}] tiles>",
+			"Generated on every [135] tiles <in [{Plains} {Fresh Water}] tiles>",
+			"Generated on every [140] tiles <in [{Tundra} {Fresh Water}] tiles>",
 			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
 			"Doesn't generate naturally <in [Plains] tiles> <in tiles without [Fresh Water]>",
 			"Doesn't generate naturally <in [Tundra] tiles> <in tiles without [Fresh Water]>"
