@@ -250,7 +250,7 @@
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 					"Generated with weight [26] <in [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Wetland] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
