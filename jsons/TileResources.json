@@ -115,7 +115,7 @@
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [150] tiles <in [{Grassland} {Fresh Water}] tiles>",
+			"Generated on every [150] tiles <in [Marsh] tiles>",
 			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
 		]
 	},
