@@ -122,8 +122,7 @@
 		"uniques": [
 			"Must be next to [Water]",
 			"Only available <in cities without a [Trading Dock]>",
-			"[+1 Food] from [Fish] tiles [in this city]",
-			"[+1 Food] from [Whales] tiles [in this city]",
+			"[+1 Food] from [Water resource] tiles [in this city]",
 		]
 	},
 	{
@@ -136,8 +135,7 @@
 		"uniques": [
 			"Must be next to [Water]",
 			"Only available <in cities without a [Fishing Dock]>",
-			"[+1 Gold] from [Pearls] tiles [in this city]",
-			"[+1 Gold] from [Crab] tiles [in this city]",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
 		]
 	},
 	{
@@ -155,41 +153,31 @@
 		]
 	},
 	{
-		"name": "Shrine",
-		"requiredBuilding": "Specialisation - Religious",
-		"faith": 2,
-		"specialistSlots": {"Priest": 1},
-		"cost": 40,
+		"name": "Pottery Kiln",
+		"production": 1,
+		"gold": 1,
 		"maintenance": 1,
-		"requiredTech": "Astrology",
+		"requiredNearbyImprovedResources": ["Clay","Minerals"],
+		"hurryCostModifier": 25
+		"requiredTech": "Pottery"
 		"uniques": [
-			"Tier 1 Faith Building",
-			"Only available <in cities without a [Altar]>"
+			"[+1 Gold] from [Clay] tiles [in this city]",
+			"[+1 Gold] from [Minerals] tiles [in this city]"
 		]
 	},
 	{
-		"name": "Altar",
-		"requiredBuilding": "Specialisation - Religious",
-		"faith": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Astrology",
+		"name": "Dragon Kiln",
+		"replaces": "Pottery Kiln",
+		"uniqueTo": "China",
+		"production": 1,
+		"gold": 2,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Clay","Minerals"],
+		"hurryCostModifier": 25
+		"requiredTech": "Pottery"
 		"uniques": [
-			"Tier 1 Faith Building",
-			"[+1 Faith] per [5] population [in this city]",
-			"Only available <in cities without a [Shrine]>"
-		]
-	},
-	{
-		"name": "Ancient Observatory",
-		"requiredBuilding": "Specialisation - Scientific",
-		"science": 2,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Astrology",
-		"uniques": [
-			"Tier 1 Science Building",
-			"[+1 Science] from [Mountain] tiles [in this city]"
+			"[+1 Gold] from [Clay] tiles [in this city]",
+			"[+1 Gold] from [Minerals] tiles [in this city]"
 		]
 	},
 	{
@@ -238,10 +226,48 @@
 	},
 	//Ancient Era - Second Column
 	{
+		"name": "Shrine",
+		"requiredBuilding": "Specialisation - Religious",
+		"faith": 2,
+		"specialistSlots": {"Priest": 1},
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Tier 1 Faith Building",
+			"Only available <in cities without a [Altar]>"
+		]
+	},
+	{
+		"name": "Altar",
+		"requiredBuilding": "Specialisation - Religious",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Tier 1 Faith Building",
+			"[+1 Faith] per [5] population [in this city]",
+			"Only available <in cities without a [Shrine]>"
+		]
+	},
+	{
+		"name": "Ancient Observatory",
+		"requiredBuilding": "Specialisation - Scientific",
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"Tier 1 Science Building",
+			"[+1 Science] from [Mountain] tiles [in this city]"
+		]
+	},
+	{
 		"name": "Brewery",
+		"food": 2,
 		"maintenance": 2,
 		"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
-		"food": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Artisanal Building",
@@ -565,7 +591,6 @@
 			"Tier 2 Coastal Building",
 			"Must be next to [Water]",
 			"Only available <in cities without a [Shipyard]>",
-			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+1 Gold] from [Water] tiles [in this city]"
 		],
 		"requiredTech": "Shipbuilding"
