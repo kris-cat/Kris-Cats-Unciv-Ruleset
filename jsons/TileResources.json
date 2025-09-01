@@ -158,7 +158,7 @@
 	{
 		"name": "Clay",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Marsh","Flood plains"],
 		"culture": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
