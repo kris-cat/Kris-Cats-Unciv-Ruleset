@@ -110,7 +110,7 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Glassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
