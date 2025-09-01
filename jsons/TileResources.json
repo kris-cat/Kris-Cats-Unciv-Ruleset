@@ -441,7 +441,7 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Wetland"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
