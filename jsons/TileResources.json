@@ -202,9 +202,9 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [13] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [17] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>"
+			"Generated on every [23] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [30] tiles <in [{Featureless} {Grassland}] tiles>"
 		]
 	},
 	{
