@@ -47,7 +47,6 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [12] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [16] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"
 		]
@@ -60,7 +59,6 @@
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [11] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Generated on every [8] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
 		]
@@ -87,7 +85,6 @@
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [14] tiles <in [Jungle] tiles>",
 			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
@@ -98,7 +95,6 @@
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",	
 			"Generated on every [10] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]>",	
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
@@ -110,12 +106,11 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Wetland"],
+		"terrainsCanBeFoundOn": ["Marsh"],
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
-			"Agricultural Resource",
-			"Generated on every [150] tiles <in [Wetland] tiles>",
+			"Generated on every [15] tiles <in [Marsh] tiles>",
 		]
 	},
 	{
@@ -126,7 +121,6 @@
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "food": -1},
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
 			"Generated on every [17] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
 		]
@@ -139,7 +133,6 @@
 		"improvement": "Plantation",
 		"improvementStats": {"production": 1, "gold": -1},
 		"uniques": [
-			"Agricultural Resource",
 			"Generated on every [17] tiles <in [Flood plains] tiles>",
 			"Doesn't generate naturally <in [Tundra] tiles>",
 		]
@@ -158,15 +151,13 @@
 	{
 		"name": "Clay",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Wetland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Marsh","Flood plains"],
 		"culture": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [20] tiles <in [Fresh Water] tiles>",
-			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
-			"Doesn't generate naturally <in [Plains] tiles> <in tiles without [Fresh Water]>",
-			"Doesn't generate naturally <in [Tundra] tiles> <in tiles without [Fresh Water]>"
+			"Generated on every [15] tiles <in [Marsh] tiles>",
+			"Generated on every [15] tiles <in [Flood plains] tiles>",
 		]
 	},
 	{
@@ -176,7 +167,6 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Fishing Resource",
 			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
 		]
 	},
@@ -187,7 +177,6 @@
 		"faith": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Fishing Resource",
 			"Generated on every [10] tiles <in [Lakes] tiles>"
 		]
 	},
@@ -242,7 +231,7 @@
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Wetland"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -250,7 +239,7 @@
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 					"Generated with weight [26] <in [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Wetland] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -289,7 +278,7 @@
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Wetland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Agricultural Resource","Generated with weight [5] <in [Tundra] Regions>",
@@ -416,7 +405,7 @@
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Wetland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Agricultural Resource","Generated with weight [30] <in [Jungle] Regions>",
@@ -441,7 +430,7 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Wetland"],
+		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
@@ -589,7 +578,7 @@
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Wetland","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
