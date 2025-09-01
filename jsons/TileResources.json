@@ -122,8 +122,8 @@
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "food": -1},
 		"uniques": [
-			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
-			"Generated on every [17] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
+			"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
+			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
 		]
 	},
 	{
