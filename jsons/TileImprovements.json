@@ -132,7 +132,7 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"terrainsCanBeBuiltOn": ["Wetland","Forest"],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Animal Husbandry",
