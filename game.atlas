@@ -18,7 +18,7 @@ TileSets/FantasyHex/Tiles/Kelp Forest
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Marsh
+TileSets/FantasyHex/Tiles/Wetland
   rotate: false
   xy: 260, 76
   size: 32, 28
