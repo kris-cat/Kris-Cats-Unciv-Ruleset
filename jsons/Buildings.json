@@ -467,7 +467,7 @@
 			"Only available <in cities without a [Target Range]>",
 			"New [Mounted] units start with [15] XP [in this city]",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production] from [Horse] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
 		"requiredTech": "Horseback Riding"
