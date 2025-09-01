@@ -20,9 +20,9 @@ TileSets/FantasyHex/Tiles/Kelp Forest
   index: -1
 TileSets/FantasyHex/Tiles/Marsh
   rotate: false
-  xy: 260, 75
-  size: 32, 29
-  orig: 32, 29
+  xy: 260, 76
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Swamp
@@ -34,7 +34,7 @@ TileSets/FantasyHex/Tiles/Swamp
   index: -1
 TileSets/FantasyHex/Tiles/Tin
   rotate: false
-  xy: 260, 39
+  xy: 260, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
