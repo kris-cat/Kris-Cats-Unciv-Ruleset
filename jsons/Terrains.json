@@ -249,7 +249,7 @@
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
-			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Marsh]>"]
+			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Marsh]>"
 		]
 	},
 	{
