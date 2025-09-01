@@ -154,6 +154,18 @@
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"]
 	},
+	{
+		"name": "Wetland",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 3,
+        "RGB": [33, 157, 31],
+		"defenceBonus": -0.15,
+		"uniques": [
+			"[-2] to Fertility for Map Generation",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
 
 	// Terrain features
 	{
@@ -221,18 +233,6 @@
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-	},
-	{
-		"name": "Marsh",
-		"type": "TerrainFeature",
-		"food": 1,
-		"movementCost": 3,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature",
-					"[-2] to Fertility for Map Generation",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Fallout",
