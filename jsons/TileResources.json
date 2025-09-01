@@ -102,7 +102,9 @@
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",	
 			"Generated on every [10] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]>",	
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-			"Generated on every [20] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+			"Generated on every [20] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+			"Doesn't generate naturally <in [{Featureless} {Tundra}] tiles>",
+			"Doesn't generate naturally <in [{Featureless} {Desert}] tiles>",
 		]
 	},
 	{
