@@ -195,12 +195,22 @@
 		]
 	},
 	{
+		"name": "Minerals",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"uniques": [
+			"Generated on every [30] tiles <in [Hill] tiles>",
+		]
+	},
+	{
 		"name": "Tin",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"science": 1},
+		"improvementStats": {"science": 1, "production": -1},
 		"uniques": [
 			"Generated on every [27] tiles <in [{Hill} {Grassland}] tiles>",
 			"Generated on every [27] tiles <in [{Hill} {Plains}] tiles>",
