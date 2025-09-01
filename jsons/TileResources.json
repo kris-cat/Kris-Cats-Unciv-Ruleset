@@ -110,13 +110,14 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Marsh"],
+		"terrainsCanBeFoundOn": ["Glassland","Marsh"],
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
 			"Agricultural Resource",
-			"Generated on every [10] tiles <in [Marsh] tiles> <in [Fresh Water] tiles>",
-			"Generated on every [10] tiles <in [Marsh] tiles> <in tiles without [Fresh Water]>"
+			"Generated on every [15] tiles <in [Marsh] tiles> <in [Fresh Water] tiles>",
+			"Generated on every [15] tiles <in [Marsh] tiles> <in tiles without [Fresh Water]>",
+			"Doesn't generate naturally <in [{Featureless} {Grassland}] tiles>",
 		]
 	},
 	{
