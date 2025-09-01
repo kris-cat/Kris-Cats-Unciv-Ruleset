@@ -310,6 +310,15 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	{
+		"name": "Kelp Forest",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
+	},
 
     // Virtual River entry, used for stats, Uniques and Civilopedia
     // Modders take heed:
