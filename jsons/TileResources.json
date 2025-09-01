@@ -163,7 +163,7 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [13] tiles <in [Fresh Water] tiles>",
+			"Generated on every [20] tiles <in [Fresh Water] tiles>",
 			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
 			"Doesn't generate naturally <in [Plains] tiles> <in tiles without [Fresh Water]>",
 			"Doesn't generate naturally <in [Tundra] tiles> <in tiles without [Fresh Water]>"
