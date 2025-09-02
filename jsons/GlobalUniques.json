@@ -130,7 +130,7 @@
         
         // Bureaucracy
         "Provides [5] [Bureaucracy]",
-        "Provides [-1] [Bureaucracy] <in [all] cities>",
+        "Provides [-1] [Bureaucracy] <in cities with at least [1] [Population]>",,
         "Provides [-1] [Bureaucracy] <in cities with at least [5] [Population]>",
         "Provides [-1] [Bureaucracy] <in cities with at least [10] [Population]>",
         "Provides [-1] [Bureaucracy] <in cities with at least [15] [Population]>",
