@@ -73,6 +73,7 @@
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
