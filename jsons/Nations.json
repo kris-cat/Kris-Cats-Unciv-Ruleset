@@ -107,7 +107,7 @@
     
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
-			"Comment [Conquering a City-State provides their unique Ally bonus]",
+			"Gain a free [Triumphal Arch] [in annexed cities] <in cities with a [Palace]>",
 			"[+2 Production, +1 Culture] [in all cities connected to capital]",
 			"[Sword] units gain the [Roman Engineers] promotion",
 		],
