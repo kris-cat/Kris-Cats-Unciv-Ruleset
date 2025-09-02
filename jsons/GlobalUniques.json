@@ -18,7 +18,7 @@
         // Housing
 
         "Nullifies Growth [in all cities] <when below [1] [Housing]>",
-        "[-50]% [Food] [in all cities] <when between [1] and [3] [Housing]>",
+        "[-50]% [Food] [in all cities] <when between [2] and [2] [Housing]>",
         
         "Provides [3] [Housing] <in [all] cities>",
         "Provides [-1] [Housing] <in cities with at least [1] [Population]>",
