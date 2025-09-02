@@ -18,7 +18,7 @@
         // Housing
 
         "[50]% Unhappiness from [Population] [in all cities] <when below [1] [Housing]>",
-        "Nullifies [Food] [in all cities] <when below [1] [Housing]>",
+        "Nullifies Growth [in all cities] <when below [1] [Housing]>",
         "[-50]% [Food] [in all cities] <when below [2] [Housing]>",
         
         "Provides [3] [Housing] <in [all] cities>",
