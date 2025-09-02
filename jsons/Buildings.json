@@ -100,6 +100,7 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Pottery"
 		"uniques": [
+			"Provides [2] [Housing]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Rice] tiles [in this city]",
 			"[+1 Food] from [Maize] tiles [in this city]",
@@ -240,6 +241,7 @@
 			"[+1 Culture] per [5] population [in this city]",
 		]
 		"requiredResource": "Specialisation Slot",
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Stone Works",
@@ -262,6 +264,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Provides [2] [Housing]",
 			"Connects trade routes over water",
 			"Must be next to [Water]",
 			"[+1 Food] from [Fishing Boats] tiles [in this city]"
@@ -274,6 +277,7 @@
 		"food": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Provides [2] [Housing]",
 			"Must be next to [Fresh water]",
 		],
 		"requiredTech": "Irrigation"
@@ -303,6 +307,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"uniques": [
+			"Provides [1] [Housing]",
 			"[+1 Culture] per [8] population [in this city]",
 		],
 		"requiredTech": "Trade"
@@ -364,6 +369,7 @@
 		"production": 1,
 		"maintenance": 1,
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Only available <in cities without a [Stable]>",
 			"Only available <in cities without a [Target Range]>",
 			"New [Sword] units start with [15] XP [in this city]",
@@ -386,7 +392,7 @@
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Organised Warfare"
 	},
 	{
 		"name": "Target Range",
@@ -400,34 +406,20 @@
 			"[+15]% Production when constructing [Archery] units [in this city]",
 			"Destroyed when the city is captured"
 		]
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Organised Warfare"
 	},
 	//Classical Era - First Column
 	{
 		"name": "Temple",
 		"requiredBuilding": "Shrine",
 		"faith": 2,
-		"specialistSlots": {"Priest": 2},
+		"specialistSlots": {"Priest": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Spirituality",
 		"uniques": [
 			"[+1 Faith] from every [Priest] <in this city>",
 			"Only available <in cities without a [Monastery]>",
-			"Only available <when religion is enabled>",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Monastery",
-		"requiredBuilding": "Shrine",
-		"faith": 3,
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Spirituality",
-		"uniques": [
-			"[+1 Food] from every [Faith] <in this city>",
-			"Only available <in cities without a [Temple]>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		]
@@ -439,7 +431,7 @@
 		"uniqueTo": "Kemet",
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"Priest": 2},
+		"specialistSlots": {"Priest": 1},
 		"maintenance": 0,
 		"uniques": [
 			"[+1 Faith] from every [Priest] <in this city>",
@@ -448,6 +440,21 @@
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mysticism"
+	},
+	{
+		"name": "Monastery",
+		"requiredBuilding": "Shrine",
+		"faith": 3,
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Spirituality",
+		"uniques": [
+			"Provides [1] [Health]",
+			"Only available <in cities without a [Temple]>",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Courthouse",
@@ -540,6 +547,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
+			"Provides [1] [Health]",
 			"[30]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
@@ -551,6 +559,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
+			"Provides [1] [Health]",
 			"[40]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
