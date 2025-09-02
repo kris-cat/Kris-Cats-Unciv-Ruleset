@@ -271,7 +271,7 @@
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations",
-			"[+1 Food] <in [Desert] tiles>"
+			"[+2 Food] <in [Desert] tiles>"
 		]
 	},
 	{
