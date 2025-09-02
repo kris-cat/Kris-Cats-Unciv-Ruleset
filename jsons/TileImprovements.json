@@ -121,7 +121,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
 		"uniques": [
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [3] [Timber]"
 		],
 		"shortcutKey": "L"
 	},
