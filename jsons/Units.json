@@ -188,11 +188,11 @@
 		"uniqueTo": "Kemet",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 12,
-		"cost": 50,
+		"strength": 14,
+		"cost": 75,
 		"requiredTech": "Bronze Working",
 		"uniques": [
-			"[25]% Strength <in [Open terrain] tiles>"
+			"Comment [Unlocked at Bronze Working]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
