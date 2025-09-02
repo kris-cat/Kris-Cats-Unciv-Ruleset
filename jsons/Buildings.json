@@ -13,7 +13,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Bureaucracy] <upon entering a new era>"
+			"Provides [2] [Housing]"
 		]
 	},
 	{
@@ -30,7 +30,7 @@
 		"uniques": [
 			"[+2 Gold, +1 Food, +1 Production] <for every [Cities]>",
 			"Indicates the capital city",
-			"Provides [1] [Bureaucracy] <upon entering a new era>",
+			"Provides [2] [Housing]",
 			"Comment [All non-Bysra cities in your empire get Punic Colony, reducing their Gold, Food and Production yield by 10%.]"
 		]
 	},
