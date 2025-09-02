@@ -20,14 +20,6 @@
 		]
 	},
 	{
-		"name": "Bureaucracy",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded"
-		]
-	},
-	{
 		"name": "Influence Points",
 		"resourceType": "Strategic",
 		"uniques": [
