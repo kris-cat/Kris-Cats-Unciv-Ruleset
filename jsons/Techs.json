@@ -241,6 +241,7 @@
 				"name": "Urban Infrastracture",
 				"row": 4,
 				"prerequisites": ["Currency","Engineering"],
+				"uniques": ["Provides [1] [Housing] <in [all] cities>"],
 			},
 			{
 				"name": "Military Training",
