@@ -128,20 +128,6 @@
         "Provides [-1] [Health] <in cities with at least [49] [Population]>",
         "Provides [-1] [Health] <in cities with at least [50] [Population]>",
         
-        // Bureaucracy
-        "Provides [5] [Bureaucracy]",
-        "Provides [-1] [Bureaucracy] <in cities with at least [1] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [5] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [10] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [15] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [20] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [25] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [30] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [35] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [40] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [45] [Population]>",
-        "Provides [-1] [Bureaucracy] <in cities with at least [50] [Population]>",
-        
         // Specialisation Slots
         "Provides [1] [Specialisation Slot] <in [all] cities>",
         "Provides [1] [Specialisation Slot] <in cities with at least [5] [Population]>",
