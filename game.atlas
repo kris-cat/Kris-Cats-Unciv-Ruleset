@@ -6,49 +6,63 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Kemet
   rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Health
+  rotate: false
   xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Housing
+  rotate: false
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kelp Forest
   rotate: false
-  xy: 220, 76
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Wetland
-  rotate: false
-  xy: 260, 76
+  xy: 436, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Swamp
   rotate: false
-  xy: 220, 4
+  xy: 436, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tin
   rotate: false
-  xy: 260, 40
+  xy: 476, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wetland
+  rotate: false
+  xy: 436, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Khopesh
   rotate: false
-  xy: 220, 40
+  xy: 476, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/Khopesh
   rotate: false
-  xy: 112, 4
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
