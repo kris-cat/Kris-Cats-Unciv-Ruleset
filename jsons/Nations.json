@@ -107,7 +107,7 @@
     
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
-			"Gain a free [Triumphal Arch] [in annexed cities] <in cities with a [Palace]>",
+			"Gain a free [Triumphal Arch] [in all cities] <upon conquering a city> <in cities with a [Palace]>",
 			"[+3 Production] [in all cities connected to capital]",
 			"[Sword] units gain the [Roman Engineers] promotion",
 		],
