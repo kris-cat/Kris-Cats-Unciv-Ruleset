@@ -19,7 +19,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [2] [Housing] <in [Fresh Water] tiles>",
-			"Provides [1] [Housing] <in [non-fresh water] tiles> <in [Coastal] cities>",
+			"Provides [1] [Housing] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
