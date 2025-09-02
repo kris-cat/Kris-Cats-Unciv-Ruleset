@@ -224,6 +224,7 @@
 	{
 		"name": "Roman Engineers",
 		"uniques": [
+			"Can build [non-[{Road} {Fort}]] improvements at a [-30]% rate",
 			"Can build [Road] improvements on tiles <upon discovering [The Wheel] technology>",
 			"Can build [Fort] improvements on tiles <upon discovering [Engineering] technology>"
 		]
