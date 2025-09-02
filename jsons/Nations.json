@@ -93,7 +93,11 @@
 
 		"uniqueName": "Dynastic Cycle",
 		"uniques": [
-			"[5]% growth [in your cities] <for every [5] [Happiness]> <when below [30] [Happiness]> <hidden from users>",
+			"[5]% growth [in your cities] <when between [5] and [9] [Happiness]> <hidden from users>",
+			"[10]% growth [in your cities] <when between [10] and [14] [Happiness]> <hidden from users>",
+			"[15]% growth [in your cities] <when between [15] and [19] [Happiness]> <hidden from users>",
+			"[20]% growth [in your cities] <when between [20] and [24] [Happiness]> <hidden from users>",
+			"[25]% growth [in your cities] <when between [25] and [29] [Happiness]> <hidden from users>",
 			"[30]% growth [in your cities] <when above [29] [Happiness]> <hidden from users>",
 			"Comment [+5% growth in all cities for every 5 ⌣Happiness, up to 25%]",
 			"[15]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
