@@ -312,7 +312,6 @@
 	},
 	{
 		"name": "Forum",
-		"requiredBuilding": "Specialisation - Commercial",
 		"replaces": "Market",
 		"uniqueTo": "Rome",
 		"gold": 3,
