@@ -48,13 +48,13 @@
         "culture": 7,
         "happiness": 7,
         "faith": 5,
-        "military": 6,
+        "military": 7,
         "aggressive": 7,
         "declareWar": 7,
         "commerce": 5,
         "diplomacy": 5,
         "loyal": 4,
-        "expansion": 7,
+        "expansion": 6,
         "priorities": {
            
         }
