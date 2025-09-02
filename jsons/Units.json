@@ -203,7 +203,7 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 1600,
+		"strength": 16,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
