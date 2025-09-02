@@ -152,13 +152,14 @@
 	{
 		"name": "Clay",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Marsh","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland","Marsh","Flood plains"],
 		"culture": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated on every [15] tiles <in [Marsh] tiles>",
+			"Generated on every [10] tiles <in [Marsh] tiles>",
 			"Generated on every [15] tiles <in [Flood plains] tiles>",
+			"Generated on every [25] tiles <in [Marsh] tiles>",
 		]
 	},
 	{
