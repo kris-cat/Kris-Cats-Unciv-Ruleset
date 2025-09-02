@@ -50,50 +50,6 @@
 		]
 		"replacementTextForUniques": "Dummy building used to calculate Bureaucracy costs from population. For more info about Bureaucracy, visit it's Civilipedia entry."
 	},
-	{
-		"name": "Specialisation - Scientific",
-		"science": 1,
-		"cost": 10,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <after discovering [Astrology]>"
-		]
-		"requiredResource": "Specialisation Slot",
-	},
-	{
-		"name": "Specialisation - Cultural",
-		"culture": 1,
-		"cost": 10,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <after discovering [Construction]>"
-		]
-		"requiredResource": "Specialisation Slot",
-	},
-	{
-		"name": "Specialisation - Commercial",
-		"gold": 1,
-		"cost": 10,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <after discovering [Trade]>"
-		]
-		"requiredResource": "Specialisation Slot",
-	},
-	{
-		"name": "Specialisation - Religious",
-		"faith": 1,
-		"cost": 10,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <after discovering [Astrology]>"
-		]
-		"requiredResource": "Specialisation Slot",
-	},
 	// Special Buildings
 	{
 		"name": "Punic Colony",
@@ -218,7 +174,6 @@
 	//Ancient Era - Second Column
 	{
 		"name": "Shrine",
-		"requiredBuilding": "Specialisation - Religious",
 		"faith": 2,
 		"specialistSlots": {"Priest": 1},
 		"cost": 40,
@@ -226,25 +181,11 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Tier 1 Faith Building",
-			"Only available <in cities without a [Altar]>"
 		]
-	},
-	{
-		"name": "Altar",
-		"requiredBuilding": "Specialisation - Religious",
-		"faith": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Astrology",
-		"uniques": [
-			"Tier 1 Faith Building",
-			"[+1 Faith] per [5] population [in this city]",
-			"Only available <in cities without a [Shrine]>"
-		]
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Ancient Observatory",
-		"requiredBuilding": "Specialisation - Scientific",
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
@@ -253,6 +194,7 @@
 			"Tier 1 Science Building",
 			"[+1 Science] from [Mountain] tiles [in this city]"
 		]
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Brewery",
@@ -306,7 +248,6 @@
 	},
 	{
 		"name": "Monument",
-		"requiredBuilding": "Specialisation - Cultural",
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -314,6 +255,7 @@
 		"uniques": [
 			"[+1 Culture] per [5] population [in this city]",
 		]
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Stone Works",
@@ -361,40 +303,24 @@
 	},
 	{
 		"name": "Market",
-		"requiredBuilding": "Specialisation - Commercial",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
-		"uniques": [
-			"Only available <in cities without a [Emporium]>"
-		],
 		"requiredTech": "Trade"
-	},
-	{
-		"name": "Emporium",
-		"requiredBuilding": "Specialisation - Commercial",
-		"gold": 2,
-		"percentStatBonus": {"gold": 15},
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"Only available <in cities without a [Market]>"
-		],
-		"requiredTech": "Trade"
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Forum",
 		"requiredBuilding": "Specialisation - Commercial",
 		"replaces": "Market",
 		"uniqueTo": "Rome",
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"uniques": [
 			"[+1 Culture] per [8] population [in this city]",
-			"Only available <in cities without a [Emporium]>"
 		],
 		"requiredTech": "Trade"
 	},
@@ -418,7 +344,7 @@
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
-		"requiredBuilding": "Specialisation - Scientific",
+		"requiredBuilding": "Ancient Observatory",
 		"science": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -429,7 +355,7 @@
 	},
 	{
 		"name": "School",
-		"requiredBuilding": "Specialisation - Scientific",
+		"requiredBuilding": "Ancient Observatory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -440,7 +366,7 @@
 	},
 	{
 		"name": "Paper Maker",
-		"requiredBuilding": "Specialisation - Scientific",
+		"requiredBuilding": "Ancient Observatory",
 		"replaces": "Library",
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
@@ -495,7 +421,7 @@
 	//Classical Era - First Column
 	{
 		"name": "Temple",
-		"requiredBuilding": "Specialisation - Religious",
+		"requiredBuilding": "Shrine",
 		"faith": 2,
 		"specialistSlots": {"Priest": 2},
 		"maintenance": 2,
@@ -510,7 +436,7 @@
 	},
 	{
 		"name": "Monastery",
-		"requiredBuilding": "Specialisation - Religious",
+		"requiredBuilding": "Shrine",
 		"faith": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -524,7 +450,7 @@
 	},
 	{
 		"name": "Burial Tomb",
-		"requiredBuilding": "Specialisation - Religious",
+		"requiredBuilding": "Shrine",
 		"replaces": "Temple",
 		"uniqueTo": "Kemet",
 		"faith": 2,
@@ -603,7 +529,7 @@
 	},
 	{
 		"name": "Amphitheater",
-		"requiredBuilding": "Specialisation - Cultural"
+		"requiredBuilding": "Monument"
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
