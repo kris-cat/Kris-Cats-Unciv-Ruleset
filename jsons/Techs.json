@@ -211,7 +211,6 @@
 				"name": "Currency",
 				"row": 4,
 				"prerequisites": ["Mathematics"],
-				"uniques": ["[+1 Gold] from every [Merchant]"],
 			},
 			{
 				"name": "Engineering",
