@@ -14,7 +14,7 @@
         "[-75]% Strength for cities <when attacking>",
         "[-75]% Strength for cities <when defending>",
 
-        "Each city founded increases Science cost of Technologies [-25]% less than normal",
+        "Each city founded increases Science cost of Technologies [-100]% less than normal",
         // Mechanics
         // Housing
 
