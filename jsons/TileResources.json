@@ -1,17 +1,24 @@
 [
-	// Resources tied to mechanics
-	// Housing mechanic currently put on hold indefinitely until there is a per every population conditional
-	//Without it, the current implementation of Housing caused way too much lag
-	//{
-	//	"name": "Housing",
-	//	"resourceType": "Strategic",
-	//	"uniques": 
-	//		"Doesn't generate naturally",
-	//		"City-level resource",
-	//		"Cannot be traded",
-	//		"Not shown on world screen"
-	//
-	//},
+	{
+		"name": "Housing",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"City-level resource",
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+	},
+	{
+		"name": "Health",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"City-level resource",
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+	},
 	{
 		"name": "Bureaucracy",
 		"resourceType": "Strategic",
