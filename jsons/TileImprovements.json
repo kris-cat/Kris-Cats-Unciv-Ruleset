@@ -14,7 +14,6 @@
 	},
 	{
 		"name": "City center",
-		"happiness": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
