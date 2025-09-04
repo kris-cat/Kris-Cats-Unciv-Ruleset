@@ -19,7 +19,7 @@
         // Housing
 
         /*"[-100 Food] per [1] population [in all cities] <when below [0] [Housing]>",*/
-        "[-100 Food] per [1] population [in this city] <when below [0] [Housing]>",
+        "Nullifies Growth [in this city] <when below [0] [Housing]>",
         
         "Provides [3] [Housing] <in [all] cities>",
         "Provides [-1] [Housing] <in cities with at least [1] [Population]>",
