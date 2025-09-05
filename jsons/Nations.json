@@ -59,8 +59,10 @@
 		"innerColor": [52, 125, 40],
 		"uniqueName": "The Mediterranean Thallassocracy",
 		"uniques": [
-			"[+75]% unhappiness from the number of cities",
-			"[+3] Happiness from each type of luxury resource",
+			"[10]% [Gold] <in [in capital] cities> <for every [Cities]> <hidden from users>",
+			"[10]% [Production] <in [in capital] cities> <for every [Cities]> <hidden from users>",
+			"Comment [+10% ¤Gold and ⚙Production in capital for every city]",
+			"Comment [-25% ¤Gold and ⚙Production in all cities except the capital]",
 			"Gifts of Gold to City-States generate [20]% more Influence"
 		],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
@@ -138,10 +140,11 @@
 		"outerColor": [190, 0, 20],
 		"innerColor": [240, 199, 0],
     
-		"uniqueName": "The Glory of Rome",
+		"uniqueName": "All Roads Lead to Rome",
 		"uniques": [
-			"Gain a free [Triumphal Arch] [in resisting cities] <upon conquering a city>",
-			"[+3 Production] [in all cities connected to capital]",
+			"[+1 Happiness, +1 Production] [in capital] <for every [[in all cities connected to capital] Cities]> <hidden from users>",
+			"Comment [+1 ⌣Happiness and ⚙Production in capital for every city connected to capital]",
+			"[-25]% maintenance on road & railroads <for every [[in all cities connected to capital] Cities]>",
 			"[Sword] units gain the [Roman Engineers] promotion",
 		],
 	  
