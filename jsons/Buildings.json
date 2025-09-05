@@ -16,24 +16,6 @@
 			"Provides [2] [Housing] <in this city>"
 		]
 	},
-	{
-		"name": "Byrsa",
-		"replaces": "Palace",
-		"uniqueTo": "Carthage",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 5,
-		"cost": 0,
-		"uniques": [
-			"[+2 Gold, +1 Food, +1 Production] <for every [Cities]>",
-			"Indicates the capital city",
-			"Provides [2] [Housing] <in this city>",
-			"Comment [All non-Bysra cities in your empire get Punic Colony, reducing their Gold, Food and Production yield by 10%.]"
-		]
-	},
 	// Special Buildings
 	{
 		"name": "Punic Colony",
@@ -42,7 +24,6 @@
 		"maintenance": 0,
 		"uniques": [
 			"[-10]% [Gold] [in this city]",
-			"[-10]% [Food] [in this city]",
 			"[-10]% [Production] [in this city]",
 			"Unsellable",
 			"Only available <for [Carthage] Civilizations>",
