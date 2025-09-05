@@ -123,7 +123,7 @@
 	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 2,
+		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
 		"uniques": [
@@ -149,7 +149,6 @@
 		"name": "Camp",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"turnsToBuild": 7,
-		"gold": 1,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 			"Provides [1] [Health] <in [Deer] tiles>",
@@ -164,7 +163,6 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
-		"production": 1,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 			"Provides [1] [Health] <in [Cattle] tiles>",
@@ -177,7 +175,6 @@
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
-		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": [
 			"Provides [1] [Health] <in [Bananas] tiles>",
@@ -190,7 +187,6 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-		"production": 1,
 		"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
@@ -199,7 +195,6 @@
 		"name": "Fishing Boats",
 		"turnsToBuild": 7, 
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
 		"techRequired": "Fishing",
 		"uniques": [
 			"Provides [1] [Health] <in [Fish] tiles>",
