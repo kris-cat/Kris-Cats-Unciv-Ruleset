@@ -144,7 +144,7 @@
 		"uniques": [
 			"[+1 Happiness, +1 Production] [in capital] <for every [[in all cities connected to capital] Cities]> <hidden from users>",
 			"Comment [+1 ⌣Happiness and ⚙Production in capital for every city connected to capital]",
-			"[-25]% maintenance on road & railroads <for every [[in all cities connected to capital] Cities]>",
+			"[-25]% maintenance on road & railroads",
 			"[Sword] units gain the [Roman Engineers] promotion",
 		],
 	  
