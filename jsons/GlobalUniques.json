@@ -133,8 +133,10 @@
         
         // Specialisation Slots
         "Provides [1] [Specialisation Slot] <in [all] cities>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [5] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [12] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [20] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [4] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [8] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [13] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [19] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [26] [Population]>",
     ]
 }
