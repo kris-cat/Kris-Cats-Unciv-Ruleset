@@ -520,7 +520,6 @@
 		"gold": 3,
 		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
-		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper", "Tin"],
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
