@@ -23,8 +23,8 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [
-			"[-10]% [Gold] [in this city]",
-			"[-10]% [Production] [in this city]",
+			"[-25]% [Gold] [in this city]",
+			"[-25]% [Production] [in this city]",
 			"Unsellable",
 			"Only available <for [Carthage] Civilizations>",
 			"Unavailable <in [Capital] cities>",
