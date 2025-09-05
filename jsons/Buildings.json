@@ -252,6 +252,24 @@
 		"requiredTech": "Celestial Navigation"
 	},
 	{
+		"name": "Grove",
+		"cost": 75,
+		"faith": 1,
+		"science": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Tier 1 Preserve Building",
+			"[+1 Faith, +1 Science] from [{unimproved} {Forest}] tiles [in this city]",
+			"[+1 Faith, +1 Science] from [{unimproved} {Jungle}] tiles [in this city]",
+			"[+1 Faith, +1 Science] from [{unimproved} {Hill} {Forest}] tiles [in this city]",
+			"[+1 Faith, +1 Science] from [{unimproved} {Hill} {Jungle}] tiles [in this city]",
+			"[+2 Faith, +2 Science] <in [unimproved] tiles> <in tiles adjacent to [Natural Wonder] tiles> <in this city>",
+		],
+		"requiredTech": "Mysticism"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
 		"name": "Water Well",
 		"maintenance": 1,
 		"food": 3,
