@@ -46,7 +46,6 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Pasture] tiles>",
 			"Generated on every [12] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [16] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"
 		]
@@ -59,7 +58,6 @@
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Pasture] tiles>",
 			"Generated on every [11] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Generated on every [8] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
 		]
@@ -72,7 +70,6 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Camp] tiles>",
 			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
@@ -88,7 +85,6 @@
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Plantation] tiles>",
 			"Generated on every [14] tiles <in [Jungle] tiles>",
 			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
@@ -99,7 +95,6 @@
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
-			"Provides [+1] [Health] <in [Farm] tiles>",
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",	
 			"Generated on every [10] tiles <in [{Flood plains} {Desert}] tiles> <in tiles without [Hill]>",	
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
@@ -115,7 +110,6 @@
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
-			"Provides [+1] [Health] <in [Farm] tiles>",
 			"Generated on every [10] tiles <in [Marsh] tiles>",
 			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>",
 		]
@@ -128,7 +122,6 @@
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "food": -1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Farm] tiles>",
 			"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Forest] Regions>",
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Forest] Regions>",
 		]
@@ -176,7 +169,6 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Provides [+1] [Health] <in [Fishing Boats] tiles>",
 			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
 		]
 	},
@@ -187,7 +179,6 @@
 		"faith": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Provides [+1] [Health] <in [Fishing Boats] tiles>",
 			"Generated on every [10] tiles <in [Lakes] tiles>"
 		]
 	},
@@ -199,7 +190,6 @@
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Camp] tiles>",
 			"Generated on every [23] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [30] tiles <in [{Featureless} {Grassland}] tiles>"
@@ -398,7 +388,6 @@
 		"science": 1,
 		"improvement": "Plantation",
 		"uniques": [
-			"Provides [+1] [Health] <in [Plantation] tiles>",
 			"Generated on every [25] tiles <in [Grassland] tiles>",
 			"Generated with weight [10] <in [Grassland] Regions>",
 			"Generated near City States with weight [15]",
@@ -597,7 +586,6 @@
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
 		"uniques": [
-			"Provides [+1] [Health] <in [Mine] tiles>",
 			"Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
