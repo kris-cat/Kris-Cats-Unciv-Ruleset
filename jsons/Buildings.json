@@ -259,11 +259,12 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Tier 1 Preserve Building",
+			"Tier 1 Nature Reserve Building",
 			"[+1 Faith, +1 Science] from [{unimproved} {Forest}] tiles [in this city]",
 			"[+1 Faith, +1 Science] from [{unimproved} {Jungle}] tiles [in this city]",
 			"[+1 Faith, +1 Science] from [{unimproved} {Hill} {Forest}] tiles [in this city]",
 			"[+1 Faith, +1 Science] from [{unimproved} {Hill} {Jungle}] tiles [in this city]",
+			"[+1 Faith, +1 Science] <in [unimproved] tiles> <in tiles adjacent to [Mountain] tiles> <in this city>",
 			"[+2 Faith, +2 Science] <in [unimproved] tiles> <in tiles adjacent to [Natural Wonder] tiles> <in this city>",
 		],
 		"requiredTech": "Mysticism"
