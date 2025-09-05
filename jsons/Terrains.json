@@ -36,7 +36,7 @@
             "A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
             "A Region can not contain more [Plains] tiles than [Grassland] tiles",
             "Considered [Desirable] when determining start locations",
-			"Becomes [Marsh] when adjacent to [River]",
+			"Becomes [Flood plains] when adjacent to [River]",
             "Considered [Food] when determining start locations <in [Jungle] Regions>",
             "Considered [Food] when determining start locations <in [Forest] Regions>",
             "Considered [Food] when determining start locations <in [Hill] Regions>",
@@ -65,6 +65,7 @@
             "A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
             "A Region can not contain more [Grassland] tiles than [Plains] tiles",
             "Considered [Desirable] when determining start locations",
+			"Becomes [Flood plains] when adjacent to [River]",
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Food] when determining start locations <in [Desert] Regions>",
             "Considered [Food] when determining start locations <in [Hill] Regions>",
@@ -224,7 +225,7 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": 1,
+		"food": -1,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
@@ -263,15 +264,16 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 1,
+		"food": 2,
 		"movementCost": 1,
+		"overrideStats": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Grassland","Plains","Desert","Tundra"],
 		"uniques": [
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations",
-			"[+2 Food] <in [Desert] tiles>"
+			"[+1 Food] <in [Desert] tiles>"
 		]
 	},
 	{
