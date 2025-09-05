@@ -165,7 +165,6 @@
 	{
 		"name": "Brewery",
 		"food": 2,
-		"maintenance": 2,
 		"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -179,7 +178,7 @@
 	},
 	{
 		"name": "Wine Cellar",
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Wine"],
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -341,7 +340,10 @@
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
 		"gold": 2,
-		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"uniques": [
+			"[+1 Science] per [3] population [in this city]",
+			"Only available <in cities without a [School]>",
+		],
 		"requiredTech": "Writing"
 	},
 	{
@@ -384,7 +386,9 @@
 			"Only available <in cities without a [Barracks]>",
 			"Only available <in cities without a [Stable]>",
 			"New [Archery] units start with [15] XP [in this city]",
+			"New [Siege] units start with [15] XP [in this city]",
 			"[+15]% Production when constructing [Archery] units [in this city]",
+			"[+15]% Production when constructing [Siege] units [in this city]",
 			"Destroyed when the city is captured"
 		]
 		"requiredTech": "Organised Warfare"
@@ -511,8 +515,23 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Mint",
+		"name": "Emporium",
+		"requiredBuilding": "Market"
+		"gold": 3,
 		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper", "Tin"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint",
+		"gold": 2,
+		"maintenance": 0,
+		"percentStatBonus": {"gold": 15},
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper", "Tin"],
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -528,7 +547,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Provides [1] [Health] <in this city>",
+			"Provides [2] [Health] <in this city>",
 			"[30]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
@@ -540,7 +559,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Provides [1] [Health] <in this city>",
+			"Provides [3] [Health] <in this city>",
 			"[40]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
