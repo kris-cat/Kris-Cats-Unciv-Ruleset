@@ -10,7 +10,7 @@
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Desert]"]
     },
-     {
+    {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": ["[+10]% growth [in this city]"]
@@ -79,3 +79,4 @@
         "type": "Founder",
         "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
     },
+]
