@@ -106,6 +106,7 @@
 	// Unique Improvements
 	{
 		"name": "Tuntian",
+		"uniqueTo": "China",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 7,
