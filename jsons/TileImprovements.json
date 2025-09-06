@@ -108,7 +108,6 @@
 		"name": "Tuntian",
 		"uniqueTo": "China",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Military Training",
 		"uniques": [
