@@ -120,6 +120,7 @@
 			"[+1 Food] <with [2] to [3] neighboring [Plantation] tiles> <hidden from users>",
 			"[+2 Food] <with [4] to [5] neighboring [Plantation] tiles> <hidden from users>",
 			"[+3 Food] <with [6] to [6] neighboring [Plantation] tiles> <hidden from users>",
+			"Must be next to [non-[Tuntian]] <hidden from users>",
 			"Comment [+1 ⁂Food for every neighbouring [Farm] or [Plantation] tile]",
             "Pillaging this improvement yields approximately [+25 Gold]",
 		],
