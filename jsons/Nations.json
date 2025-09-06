@@ -195,7 +195,7 @@
 		"name": "Inca",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
-		"startBias": ["Mountain"],
+		"startBias": ["Mountain","Hill"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
