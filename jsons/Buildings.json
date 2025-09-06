@@ -1,7 +1,6 @@
 [
 
 	// Palace buildings
-
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -45,6 +44,22 @@
 			"Unsellable",
 			"Unavailable",
 		],
+	},
+	// National Wonders
+	{
+		"name": "Necropolis",
+		"cost": 150,
+		"culture": 1,
+		"faith": 8,
+		"uniques": [
+			"Only available <if [Burial Tomb] is constructed in at least [4] of [all] cities>", 
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]",
+			"[+3 Faith] from every [Wonder]",
+			"[+1 Faith, +1 Culture] from [{Fresh Water} {resource}] tiles [in all cities]",
+		],
+		"requiredTech": "Mysticism",
+		"isNationalWonder": true
 	},
 	// Ancient Era - First Column
 	{
