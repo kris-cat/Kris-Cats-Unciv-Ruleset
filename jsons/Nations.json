@@ -12,6 +12,7 @@
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
+		"favoredReligion": "Islam",
 
 		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
 		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
@@ -43,6 +44,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "CarthageAI",
+		"favoredReligion": "Islam",
 
         "startIntroPart1": "Greetings to you, revered Queen Dido, ruler of the legendary kingdom of Carthage. The great poet Virgil related your great history, how your husband Acerbas was murdered by your own brother, King Pygmalion of Tyre, to steal the treasures of your family that were rightfully yours. But you endured his pressure until you and your compatriots decided to flee and sail for new lands. The gods led you to the shores of North Africa, and with cunning diplomacy, you expanded the territory of your new home, and laid the basis for the future kingdom of Carthage.",
         "startIntroPart2": "Clever and proud Dido, the storm is coming and your people look for a shelter under your wise and powerful protection. Can you create a new and radiant Carthage able to cleave the darkness? Will your new empire shine through the ages of history?",
@@ -78,6 +80,7 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
+		"favoredReligion": "Confucianism",
 
 		"startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
 		"startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
@@ -124,6 +127,7 @@
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 		"personality": "RomanAI",
+		"favoredReligion": "Imperial Cult",
 
 		"startIntroPart1": "Ave Caesar Augustus, Emperor of Rome and Dominus of the Roman Empire! Your empire was the most powerful and feared of all in Western civilization. The Roman people crafted so brilliantly its culture, law, art, and warfare, that no one could contest the supremacy of Rome. Force and Honor led to glorious conquests, a domination of all the lands from Spain in the west to Syria in the east, even reaching the remote barbarian lands of England and Germany. Roman art and architecture have been praised for millenia and have been envied by all lesser civilizations who have followed.",
 		"startIntroPart2": "O glorious Imperator, your people celebrate you and ask for the glory of Rome! In these times of darkness, the Pax Romana will be a beacon of light for all! Will your new empire shine through the ages of history?",
@@ -165,6 +169,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
 		"personality": "Average Guys",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
 		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
@@ -198,6 +203,7 @@
 		"startBias": ["Mountain","Hill"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
+		"favoredReligion": "Christianity",
 
         "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
@@ -235,6 +241,7 @@
 		],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
+		"favoredReligion": "Islam",
 
         "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
         "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
