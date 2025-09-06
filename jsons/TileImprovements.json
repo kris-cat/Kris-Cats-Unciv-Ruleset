@@ -103,6 +103,27 @@
         "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
+	// Unique Improvements
+	{
+		"name": "Tuntian",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Military Training",
+		"uniques": [
+			"Provides [1] [Housing]",
+			"Gives a defensive bonus of [25]%",
+			"[+1 Food] <with [2] to [3] neighboring [Farm] tiles> <hidden from users>",
+			"[+2 Food] <with [4] to [5] neighboring [Farm] tiles> <hidden from users>",
+			"[+3 Food] <with [6] to [6] neighboring [Farm] tiles> <hidden from users>",
+			"[+1 Food] <with [2] to [3] neighboring [Plantation] tiles> <hidden from users>",
+			"[+2 Food] <with [4] to [5] neighboring [Plantation] tiles> <hidden from users>",
+			"[+3 Food] <with [6] to [6] neighboring [Plantation] tiles> <hidden from users>",
+			"Comment [+1 ⁂Food for every neighbouring [Farm] or [Plantation] tile]",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+		],
+		"shortcutKey": "F"
+	},
 	// Basic Improvements
 	{
 		"name": "Farm",
