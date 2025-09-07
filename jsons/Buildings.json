@@ -78,7 +78,7 @@
 	{
 		"name": "Trading Dock"
 		"cost": 40,
-		"gold": 1,
+		"gold": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25
 		"requiredTech": "Fishing"
@@ -316,8 +316,22 @@
 		"requiredTech": "Irrigation"
 	},
 	{
+		"name": "Garden",
+		"gold": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade"
+		"uniques": [
+			"Tier 1 Landscaping Building",
+			"Provides [1] [Health] <in this city>",
+			"Comment [Provides additional 1 [Health] if city has access to [Fresh Water]]",
+			"[10]% Great Person generation [in this city]"
+		],
+		"requiredResource": "Specialisation Slot",
+	},
+	{
 		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Horses"],
+		"requiredNearbyImprovedResources": ["Horses","Ivory"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade"
