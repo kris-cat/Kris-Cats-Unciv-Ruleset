@@ -12,7 +12,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [2] [Housing] <in this city>"
+			"Provides [4] [Housing] <in this city>"
 		]
 	},
 	// Special Buildings
@@ -97,7 +97,7 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Pottery"
 		"uniques": [
-			"Provides [2] [Housing] <in this city>",
+			"Provides [4] [Housing] <in this city>",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Rice] tiles [in this city]",
 			"[+1 Food] from [Maize] tiles [in this city]",
@@ -114,9 +114,9 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Pottery"
 		"uniques": [
-			"Provides [2] [Housing] <in this city>",
-			"Comment [Provides additional 2 [Housing] in cities built on [Hill] tiles without access to [Fresh Water]]",
-			"Comment [This bonus is reduced to 1 [Housing] if the city is [Coastal]]",
+			"Provides [4] [Housing] <in this city>",
+			"Comment [Provides additional 4 [Housing] in cities built on [Hill] tiles without access to [Fresh Water]]",
+			"Comment [This bonus is reduced to 2 [Housing] if the city is [Coastal]]",
 			"[+15]% Food is carried over after population increases [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Rice] tiles [in this city]",
@@ -169,7 +169,7 @@
 		"isWonder": true,
 		"requiredTech": "Pottery",
         "uniques": [
-			"Provides [3] [Housing] <in this city>",
+			"Provides [6] [Housing] <in this city>",
 			"[+1 Faith] from [Flood plains] tiles [in this city]",
 			"Must have an owned [Flood plains] within [2] tiles",
 		],
@@ -336,7 +336,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Provides [2] [Housing] <in this city>",
+			"Provides [4] [Housing] <in this city>",
 			"Connects trade routes over water",
 			"Must be next to [Water]",
 			"[+1 Food] from [Fishing Boats] tiles [in this city]"
@@ -390,7 +390,7 @@
 		"food": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Housing] <in this city>",
+			"Provides [2] [Housing] <in this city>",
 			"Must be next to [Fresh water]",
 		],
 		"requiredTech": "Irrigation"
@@ -414,7 +414,7 @@
 		"isWonder": true,
 		"requiredTech": "Irrigation",
         "uniques": [
-			"Provides [2] [Housing] <in this city>",
+			"Provides [4] [Housing] <in this city>",
 			"[10]% growth [in all cities]",
 			"Gain a free [Garden] [in this city]",
 			"Must be next to [Fresh water]",
@@ -448,7 +448,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"uniques": [
-			"Provides [1] [Housing] <in this city>",
+			"Provides [2] [Housing] <in this city>",
 			"[+1 Culture] per [8] population [in this city]",
 			"Enables conversion of city production to [Gold] <in this city>"
 		],
@@ -543,7 +543,7 @@
 		"production": 1,
 		"maintenance": 1,
 		"uniques": [
-			"Provides [1] [Housing] <in this city>",
+			"Provides [2] [Housing] <in this city>",
 			"Only available <in cities without a [Stable]>",
 			"Only available <in cities without a [Target Range]>",
 			"New [Sword] units start with [15] XP [in this city]",
@@ -756,7 +756,7 @@
 		"isWonder": true,
 		"requiredTech": "Currency",
         "uniques": [
-			"Provides [2] [Housing] <in this city>",
+			"Provides [4] [Housing] <in this city>",
 			"[+2 Gold] from [Mountain] tiles [in this city]",
 			"[+25]% [Gold] from Trade Routes",
 			"Must have an owned [Mountain] within [2] tiles",
