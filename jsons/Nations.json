@@ -260,7 +260,7 @@
 		"innerColor": [1, 79, 81],
 		"uniqueName": "Gifts of the Nile",
 		"uniques": [
-			"[+20]% Production when constructing [All] wonders [in all cities] <during a Golden Age>",
+			"Gain [250] [Gold] <(modified by game progress up to [+100]%)> <upon constructing [Wonder]>",
 			"[+1 Culture] from every [Priest]",
 			"[+1 Production] from [{non-[Hill]} {River}] tiles [in all cities]"
 		],
