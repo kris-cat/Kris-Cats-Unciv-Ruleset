@@ -787,7 +787,6 @@
 	{
 		"name": "Great Wall",
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory <Suppress warning [*contains a conditional on a unit movement unique*]>",
