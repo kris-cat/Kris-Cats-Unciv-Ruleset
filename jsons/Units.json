@@ -74,7 +74,7 @@
 		"replaces": "Scout",
 		"movement": 4,
 		"strength": 5,
-		"cost": 56,
+		"cost": 25,
 		"uniques": [
 			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit",
