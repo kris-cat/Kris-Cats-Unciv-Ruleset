@@ -327,7 +327,6 @@
 		"gold": 2,
 		"culture": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trade"
 		"uniques": [
 			"Tier 1 Landscaping Building",
 			"Provides [1] [Health] <in this city>",
@@ -335,6 +334,7 @@
 			"[10]% Great Person generation [in this city]"
 		],
 		"requiredResource": "Specialisation Slot",
+		"requiredTech": "Irrigation"
 	},
 	{
 		"name": "Circus",
