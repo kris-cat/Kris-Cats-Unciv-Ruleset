@@ -660,7 +660,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Gold from every [Culture] <in this city>",
+			"[+1 Gold] from every [Culture] <in this city>",
 			"Production to [Culture] conversion in cities changed by [10]% <in this city>",
 		],
 		"requiredTech": "Urban Infrastracture"
