@@ -104,6 +104,25 @@
 		]
 	},
 	{
+		"name": "Qullqa",
+		"replaces": "Granary",
+		"uniqueTo": "Inca",
+		"food": 2,
+		"cost": 25,
+		"maintenance": 0,
+		"hurryCostModifier": 25
+		"requiredTech": "Pottery"
+		"uniques": [
+			"Provides [2] [Housing] <in this city>",
+			"Provides [1] [Housing] <in [{Hill} {City center}] tiles> <in this city>",
+			"[+15]% Food is carried over after population increases [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Rice] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]"
+		]
+	},
+	{
 		"name": "Pottery Kiln",
 		"production": 1,
 		"gold": 1,
