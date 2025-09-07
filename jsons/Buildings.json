@@ -170,7 +170,11 @@
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": [
+			"[+25]% Strength for cities <when attacking>",
+			"[+25]% Strength for cities <when defending>",
+			"Destroyed when the city is captured"
+		]
 	},
 	//Ancient Era - Second Column
 	{
@@ -359,6 +363,18 @@
 		],
 		"requiredTech": "Trade"
 		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+			"[+50]% Strength for cities <when attacking>",
+			"[+50]% Strength for cities <when defending>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Arena",
