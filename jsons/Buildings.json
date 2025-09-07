@@ -796,6 +796,17 @@
 	},
 	//Classical Era - Third Column
 	{
+		"name": "Circus Maximus",
+		"requiredBuilding": "Arena"
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+		],
+		"requiredTech": "Recreation"
+	},
+	{
 		"name": "Pavilion",
 		"requiredBuilding": "Garden"
 		"culture": 2,
