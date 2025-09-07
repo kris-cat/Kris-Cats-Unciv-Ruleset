@@ -366,7 +366,7 @@
 		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Engineering",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight"],
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	}
