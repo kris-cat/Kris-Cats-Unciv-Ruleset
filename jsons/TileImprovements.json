@@ -17,12 +17,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
-			"Provides [2] [Housing] <in [Fresh Water] tiles>",
+			"Provides [4] [Housing] <in [Fresh Water] tiles>",
 			"Provides [2] [Health] <in [Fresh Water] tiles>",
-			"Provides [1] [Housing] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
+			"Provides [2] [Housing] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
 			"Provides [1] [Health] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
-			"Provides [2] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [non-[Coastal]] cities> <if [Qullqa] is constructed> <hidden from users>",
-			"Provides [1] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [Coastal] cities> <if [Qullqa] is constructed> <hidden from users>",
+			"Provides [4] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [non-[Coastal]] cities> <if [Qullqa] is constructed> <hidden from users>",
+			"Provides [2] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [Coastal] cities> <if [Qullqa] is constructed> <hidden from users>",
 			"Provides [1] [Health] <in [Fresh Water] tiles> <if [Garden] is constructed> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
@@ -113,7 +113,9 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Provides [2] [Housing]",
 			"[+1 Food] <with [2] to [3] neighboring [Terrace farm] tiles> <hidden from users>",
 			"[+1 Food] <with [4] to [5] neighboring [Terrace farm] tiles> <hidden from users>",
 			"[+1 Food] <with [6] to [6] neighboring [Terrace farm] tiles> <hidden from users>",
@@ -131,6 +133,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Wheat] tiles>",
 			"Provides [1] [Health] <in [Rice] tiles>",
 			"Provides [1] [Health] <in [Maize] tiles>",
@@ -171,6 +174,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Deer] tiles>",
 			"Provides [1] [Health] <in [Bison] tiles>",
 			"Does not need removal of [Forest]",
@@ -185,6 +189,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Cattle] tiles>",
 			"Provides [1] [Health] <in [Sheep] tiles>",
 			"Can only be built to improve a resource",
@@ -197,6 +202,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Bananas] tiles>",
 			"Provides [1] [Health] <in [Tea] tiles>",
 			"Can only be built to improve a resource",
@@ -217,6 +223,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Fishing",
 		"uniques": [
+			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Fish] tiles>",
 			"Provides [1] [Health] <in [Lake Fish] tiles>",
 			"Can only be built to improve a resource",
