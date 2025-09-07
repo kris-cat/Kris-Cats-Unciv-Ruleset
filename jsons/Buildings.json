@@ -575,7 +575,6 @@
 		"requiredBuilding": "Monument"
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
@@ -629,5 +628,18 @@
 			"[40]% Food is carried over after population increases [in this city]",
 		],
 		"requiredTech": "Engineering"
+	},
+	//Classical Era - Third Column
+	{
+		"name": "Pavilion",
+		"requiredBuilding": "Garden"
+		"culture": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold from every [Culture] <in this city>",
+			"Production to [Culture] conversion in cities changed by [10]% <in this city>",
+		],
+		"requiredTech": "Urban Infrastracture"
 	},
 ]
