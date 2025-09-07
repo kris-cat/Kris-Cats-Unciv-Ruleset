@@ -153,6 +153,27 @@
 		]
 	},
 	{
+		"name": "Etemenanki",
+		"isWonder": true,
+		"science": 2,
+		"production": 2,
+		"requiredTech": "Pottery",
+        "uniques": [
+			"[+1 Science, +1 Production] from [Flood plains] tiles [in this city]",
+			"Must have an owned [Flood plains] within [3] tiles",
+		],
+	},
+	{
+		"name": "Great Bath",
+		"isWonder": true,
+		"requiredTech": "Pottery",
+        "uniques": [
+			"Provides [3] [Housing] <in this city>",
+			"[+1 Faith] from [Flood plains] tiles [in this city]",
+			"Must have an owned [Flood plains] within [3] tiles",
+		],
+	},
+	{
 		"name": "Barn",
 		"food": 1,
 		"maintenance": 1,
@@ -175,6 +196,17 @@
 			"[+25]% Strength for cities <when defending>",
 			"Destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"isWonder": true,
+        "uniques": [
+			"[+10]% [Food] [in all cities]",
+			"[+15]% Production when constructing [Archery] units [in this city]",
+		],
+		"requiredTech": "Carpentry",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	//Ancient Era - Second Column
 	{
@@ -202,6 +234,16 @@
 			"Enables conversion of city production to [Science] <in this city>"
 		]
 		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 5,
+		"isWonder": true,
+		"requiredTech": "Astrology",
+		"uniques": [
+			"[1] free [Great Prophet] units appear",
+			"Must have an owned [{Stone} {Quarry}] within [3] tiles",
+		]
 	},
 	{
 		"name": "Brewery",
@@ -279,6 +321,13 @@
 		],
 		"requiredTech": "Construction"
 	},
+	{
+		"name": "Statue of Zeus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Bronze Working",
+	},
 	//Ancient Era - Third Column
 	{
 		"name": "Lighthouse",
@@ -335,6 +384,17 @@
 		],
 		"requiredResource": "Specialisation Slot",
 		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Hanging Gardens",
+		"isWonder": true,
+		"requiredTech": "Irrigation",
+        "uniques": [
+			"Provides [2] [Housing] <in this city>",
+			"[10]% growth [in all cities]",
+			"Gain a free [Garden] [in this city]",
+			"Must be next to [Fresh water]",
+		],
 	},
 	{
 		"name": "Circus",
@@ -400,6 +460,13 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry"
 	},
+	{
+		"name": "The Pyramids",
+		"culture": 2,
+		"isWonder": true,
+		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
+		"requiredTech": "Masonry",
+	},
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
@@ -435,6 +502,16 @@
 			"Only available <in cities without a [School]>",
 		],
 		"requiredTech": "Writing"
+	},
+	{
+		"name": "The Great Library",
+		"science": 3,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"[+20]% [Science] [in this city]",
+		],
 	},
 	{
 		"name": "Barracks",
