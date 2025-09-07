@@ -55,6 +55,36 @@
 	},
 	// Ancient Era Melee Units
 	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": [
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit",
+			"Ignores terrain cost"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Chasqui",
+		"unitType": "Scout",
+		"uniqueTo": "Inca",
+		"replaces": "Scout",
+		"movement": 4,
+		"strength": 5,
+		"cost": 56,
+		"uniques": [
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit",
+			"Ignores terrain cost",
+			"Can see over obstacles",
+			"[+2] Sight",
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"upgradesTo": "Swordsman",
