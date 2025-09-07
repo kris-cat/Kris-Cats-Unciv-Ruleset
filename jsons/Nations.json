@@ -224,6 +224,7 @@
 		"uniques": [
 			"[+2 Production] from [Mountain] tiles [in all cities]",
 			"[+1 Food] from every [Mountain] <for every adjacent [Terrace farm]>",
+			"Can build [all] improvements at a [+20]% rate <in [Hill] tiles>"
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
