@@ -111,8 +111,11 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] <with [2] to [3] neighboring [Terrace farm] tiles> <hidden from users>",
+			"[+1 Food] <with [4] to [5] neighboring [Terrace farm] tiles> <hidden from users>",
+			"[+1 Food] <with [6] to [6] neighboring [Terrace farm] tiles> <hidden from users>",
+			"Comment [+1 ⁂Food for every 2 adjacent [Terrace Farm]]",
+			"[+1 Production] from [Fresh water] tiles",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
