@@ -114,7 +114,10 @@
 		"requiredTech": "Pottery"
 		"uniques": [
 			"Provides [2] [Housing] <in this city>",
-			"Provides [1] [Housing] <in [{Hill} {City center}] tiles> <in this city>",
+			"Provides [2] [Housing] <in [{non-[Fresh Water]} {non-[Coastal]} {City center}] tiles> <in this city> <hidden from users>",
+			"Provides [1] [Housing] <in [{non-[Fresh Water]} {Coastal} {City center}] tiles> <in this city> <hidden from users>",
+			"Comment [Provides 2 [Housing] in cities built on [Hill] tiles without access to [Fresh Water]]",
+			"Comment [This bonus is reduced to 1 [Housing] if the city is [Coastal]]",
 			"[+15]% Food is carried over after population increases [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Rice] tiles [in this city]",
