@@ -21,8 +21,6 @@
 			"Provides [2] [Health] <in [Fresh Water] tiles>",
 			"Provides [2] [Housing] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
 			"Provides [1] [Health] <in [non-[Fresh Water]] tiles> <in [Coastal] cities>",
-			"Provides [4] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [non-[Coastal]] cities> <if [Qullqa] is constructed> <hidden from users>",
-			"Provides [2] [Housing] <in [{non-[Fresh Water]} {Hill}] tiles> <in [Coastal] cities> <if [Qullqa] is constructed> <hidden from users>",
 			"Provides [1] [Health] <in [Fresh Water] tiles> <if [Garden] is constructed> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
