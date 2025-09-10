@@ -546,7 +546,7 @@
 			"Goods Production building",
 			"Must have an owned [{worked} {Lumber mill}] within [3] tiles",
 			"Consumes [2] [Timber] <in [Lumber mill] tiles> <in this city>",
-			"Provides [1] [Furniture] <in [Lumber mill] tiles> <in this city>]",
+			"Provides [1] [Furniture] <in [Lumber mill] tiles> <in this city>",
 		]
 		"requiredTech": "Craftsmanship"
 	},
