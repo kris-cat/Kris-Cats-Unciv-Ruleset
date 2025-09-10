@@ -414,8 +414,8 @@
 		"requiredTech": "Irrigation",
         "uniques": [
 			"Provides [4] [Housing] <in this city>",
+			"Provides [1] [Health] <in [all] cities>",
 			"[10]% growth [in all cities]",
-			"Gain a free [Garden] [in this city]",
 			"Must be next to [Fresh water]",
 		],
 	},
@@ -427,9 +427,8 @@
 		"requiredTech": "Trade"
 	},
 	{
-		"name": "Market",
+		"name": "Town Square",
 		"gold": 3,
-		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"requiredTech": "Trade"
@@ -440,10 +439,9 @@
 	},
 	{
 		"name": "Forum",
-		"replaces": "Market",
+		"replaces": "Town Square",
 		"uniqueTo": "Rome",
 		"gold": 3,
-		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"uniques": [
@@ -712,8 +710,20 @@
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
+		"name": "Market",
+		"requiredBuilding": "Town Square"
+		"gold": 3,
+		"maintenance": 0,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from every [Merchant]",
+		]
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Emporium",
-		"requiredBuilding": "Market"
+		"requiredBuilding": "Town Square"
 		"gold": 3,
 		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
