@@ -147,6 +147,7 @@
 		"hurryCostModifier": 25
 		"requiredTech": "Pottery"
 		"uniques": [
+			"Goods Production building",
 			"Provides [1] [Porcelain]",
 			"[+1 Gold] from [Clay] tiles [in this city]",
 			"[+1 Gold] from [Minerals] tiles [in this city]"
@@ -184,18 +185,6 @@
 			"[+1 Food] from [Cattle] tiles [in this city]"
 		]
 		"requiredTech": "Animal Husbandry"
-	},
-	{
-		"name": "Pallisade",
-		"cityStrength": 5,
-		"cityHealth": 10,
-		"hurryCostModifier": 25,
-		"requiredTech": "Carpentry",
-		"uniques": [
-			"[+25]% Strength for cities <when attacking>",
-			"[+25]% Strength for cities <when defending>",
-			"Destroyed when the city is captured"
-		]
 	},
 	{
 		"name": "Temple of Artemis",
@@ -251,7 +240,7 @@
 		"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Artisanal Building",
+			"Goods Production building",
 			"Provides [1] [Beer]",
 			"[+1 Gold] from [Wheat] tiles [in this city]",
 			"[+1 Gold] from [Rice] tiles [in this city]",
@@ -265,13 +254,13 @@
 		"requiredNearbyImprovedResources": ["Wine"],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Artisanal Building",
+			"Goods Production building",
 			"[+1 Food, +1 Culture] from [Wine] tiles [in this city]"
 		],
 		"requiredTech": "Calendar"
 	},
 	{
-		"name": "Water Mill",
+		"name": "Irrigation Wheel",
 		"maintenance": 2,
 		"food": 2,
 		"production": 1,
@@ -283,7 +272,7 @@
 	},
 	{
 		"name": "Nilometer",
-		"replaces": "Water Mill",
+		"replaces": "Irrigation Wheel",
 		"uniqueTo": "Kemet",
 		"maintenance": 1,
 		"food": 2,
@@ -306,6 +295,18 @@
 		]
 		"requiredResource": "Specialisation Slot",
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Pallisade",
+		"cityStrength": 5,
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction",
+		"uniques": [
+			"[+25]% Strength for cities <when attacking>",
+			"[+25]% Strength for cities <when defending>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Stone Works",
@@ -453,32 +454,16 @@
 		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Walls",
-		"cityStrength": 5,
-		"cityHealth": 40,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
+		"name": "Builders Quarters",
+		"production": 3,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
 		"uniques": [
-			"[+50]% Strength for cities <when attacking>",
-			"[+50]% Strength for cities <when defending>",
-			"Destroyed when the city is captured"
+			"Tier 1 Heavy Industrial building",
+			"[-20]% construction time for [all] improvements <in this city>",
 		]
-	},
-	{
-		"name": "Arena",
-		"maintenance": 1,
-		"happiness": 3,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry"
-	},
-	{
-		"name": "Colosseum",
-		"replaces": "Arena",
-		"uniqueTo": "Rome",
-		"maintenance": 1,
-		"happiness": 3,
-		"uniques": ["[+1 Culture] per [3] population [in this city]"],
-		"hurryCostModifier": 25,
+		"requiredResource": "Specialisation Slot",
 		"requiredTech": "Masonry"
 	},
 	{
@@ -533,6 +518,49 @@
 		"uniques": [
 			"[+20]% [Science] [in this city]",
 		],
+	},
+	{
+		"name": "Craftsmen Quarter",
+		"production": 1,
+		"gold": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Light Industrial building",
+			"[+2 Gold] from every [Goods Production building] <in this city>"
+		]
+		"requiredResource": "Specialisation Slot",
+		"requiredTech": "Craftsmanship"
+	},
+	{
+		"name": "Carpenter Workshop",
+		"requiredBuilding": "Craftsmen Quarter",
+		"production": 3,
+		"gold": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Light Industrial building",
+			"Goods Production building",
+			"Must have an owned [{worked} {Lumber mill}] within [3] tiles",
+			"Consumes [2] [Timber] <in [Lumber mill] tiles> <in this city>",
+			"Provides [1] [Furniture] <in [Lumber mill] tiles> <in this city>]",
+		]
+		"requiredTech": "Craftsmanship"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredTech": "Organised Warfare",
+		"uniques": [
+			"[+50]% Strength for cities <when attacking>",
+			"[+50]% Strength for cities <when defending>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Barracks",
@@ -813,6 +841,23 @@
 		"isWonder": true,
 		"uniques": [
 		],
+		"requiredTech": "Recreation"
+	},
+	{
+		"name": "Arena",
+		"maintenance": 1,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Recreation"
+	},
+	{
+		"name": "Colosseum",
+		"replaces": "Arena",
+		"uniqueTo": "Rome",
+		"maintenance": 1,
+		"happiness": 3,
+		"uniques": ["[+1 Culture] per [3] population [in this city]"],
+		"hurryCostModifier": 25,
 		"requiredTech": "Recreation"
 	},
 	{
