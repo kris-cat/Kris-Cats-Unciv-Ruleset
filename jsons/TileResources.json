@@ -576,5 +576,13 @@
 		"uniques": [
 			"Doesn't generate naturally"
 		]
+	},
+	{
+		"name": "Furniture",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": [
+			"Doesn't generate naturally"
+		]
 	}
 ]
