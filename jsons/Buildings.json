@@ -206,7 +206,7 @@
 		"maintenance": 1,
 		"requiredTech": "Astrology",
 		"uniques": [
-			"Tier 1 Faith Building",
+			"Faith Building",
 			"Enables conversion of city production to [Faith] <in this city>"
 		]
 		"requiredResource": "Specialisation Slot",
@@ -218,7 +218,7 @@
 		"maintenance": 1,
 		"requiredTech": "Astrology",
 		"uniques": [
-			"Tier 1 Science Building",
+			"Science Building",
 			"[+1 Science] from [Mountain] tiles [in this city]",
 			"Enables conversion of city production to [Science] <in this city>"
 		]
@@ -290,6 +290,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
+			"Cultural Building",
 			"[+1 Culture] per [5] population [in this city]",
 			"Enables conversion of city production to [Culture] <in this city>"
 		]
@@ -374,7 +375,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Tier 1 Nature Reserve Building",
+			"Nature Reserve Building",
 			"[+1 Faith, +1 Science] from [{unimproved} {Forest}] tiles [in this city]",
 			"[+1 Faith, +1 Science] from [{unimproved} {Jungle}] tiles [in this city]",
 			"[+1 Faith, +1 Science] from [{unimproved} {Coastal} {Land}] tiles [in this city]",
@@ -397,11 +398,11 @@
 	},
 	{
 		"name": "Garden",
-		"gold": 2,
+		"gold": 1,
 		"culture": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Tier 1 Landscaping Building",
+			"Landscaping Building",
 			"Provides [1] [Health] <in this city>",
 			"Comment [Provides additional 1 [Health] if city has access to [Fresh Water]]",
 			"[10]% Great Person generation [in this city]"
@@ -522,13 +523,13 @@
 	{
 		"name": "Craftsmen Quarter",
 		"production": 1,
-		"gold": 2,
+		"gold": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
 			"Light Industrial building",
-			"[+2 Gold] from every [Goods Production building] <in this city>"
+			"[+1 Gold] from every [Goods Production building] <in this city>"
 		]
 		"requiredResource": "Specialisation Slot",
 		"requiredTech": "Craftsmanship"
@@ -536,8 +537,7 @@
 	{
 		"name": "Carpenter Workshop",
 		"requiredBuilding": "Craftsmen Quarter",
-		"production": 3,
-		"gold": 2,
+		"production": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -545,8 +545,8 @@
 			"Light Industrial building",
 			"Goods Production building",
 			"Must have an owned [{worked} {Lumber mill}] within [3] tiles",
-			"Consumes [2] [Timber] <in [Lumber mill] tiles> <in this city>",
-			"Provides [1] [Furniture] <in [Lumber mill] tiles> <in this city>",
+			"Consumes [2] [Timber]",
+			"Provides [1] [Furniture]",
 		]
 		"requiredTech": "Craftsmanship"
 	},
