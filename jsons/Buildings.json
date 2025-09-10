@@ -115,7 +115,7 @@
 		"requiredTech": "Pottery"
 		"uniques": [
 			"Provides [4] [Housing] <in this city>",
-			"[+2 Food] in cities on [Hill] tiles <every [positiveAmount] turns>",
+			"[+2 Food] in cities on [Hill] tiles <in this city>",
 			"[+15]% Food is carried over after population increases [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Rice] tiles [in this city]",
