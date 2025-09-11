@@ -39,21 +39,21 @@
 	// Remove Feature
 	{
 		"name": "Remove Forest",
-		"turnsToBuild": 4,
+		"turnsToBuild": 10,
 		"techRequired": "Carpentry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 	},
 	{
 		"name": "Remove Jungle",
-		"turnsToBuild": 6,
+		"turnsToBuild": 12,
 		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 6,
+		"turnsToBuild": 12,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
@@ -62,7 +62,7 @@
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 12,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
@@ -71,7 +71,7 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
+		"turnsToBuild": 8,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
@@ -82,12 +82,12 @@
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
-		"turnsToBuild": 2,
+		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Railroad",
-		"turnsToBuild": 2,
+		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
@@ -99,7 +99,7 @@
     {
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 2,
+        "turnsToBuild": 4,
         "shortcutKey": "E",
         "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
@@ -110,7 +110,7 @@
 		"uniqueTo": "Inca",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 10,
 		"uniques": [
 			"Cannot be built on [Bonus resource] tiles",
 			"Provides [2] [Housing]",
@@ -128,13 +128,14 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
 		"food": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 10,
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Provides [1] [Housing]",
-			"Provides [1] [Health] <in [Wheat] tiles>",
-			"Provides [1] [Health] <in [Rice] tiles>",
-			"Provides [1] [Health] <in [Maize] tiles>",
+			"Provides [1] [Health] <in [Wheat] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Rice] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Maize] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Wheat], [Rice] and [Maize] tiles]",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+18 Gold]",
 			"Cannot be built on [Water] tiles"
@@ -142,39 +143,16 @@
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 2,
-		"turnsToBuild": 7,
-		"techRequired": "Carpentry",
-		"uniques": [
-			"Pillaging this improvement yields approximately [+10 Gold]",
-			"Provides [2] [Timber]"
-		],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Mining",
-		"uniques": [
-			"Provides [1] [Health] <in [Salt] tiles>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "M"
-	},
-	// Resource-specific
-	{
 		"name": "Camp",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
-		"turnsToBuild": 7,
-		"techRequired": "Animal Husbandry",
+		"food": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Agriculture",
 		"uniques": [
 			"Provides [1] [Housing]",
-			"Provides [1] [Health] <in [Deer] tiles>",
-			"Provides [1] [Health] <in [Bison] tiles>",
+			"Provides [1] [Health] <in [Deer] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Bison] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Deer] and [Bison] tiles]",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Gold] <after discovering [Trade]>",
@@ -183,47 +161,81 @@
 		"shortcutKey": "C"
 	},
 	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 12,
+		"techRequired": "Mining",
 		"uniques": [
-			"Provides [1] [Housing]",
-			"Provides [1] [Health] <in [Cattle] tiles>",
-			"Provides [1] [Health] <in [Sheep] tiles>",
-			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Provides [1] [Health] <in [Salt] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Salt] tiles]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"techRequired": "Calendar",
-		"uniques": [
-			"Provides [1] [Housing]",
-			"Provides [1] [Health] <in [Bananas] tiles>",
-			"Provides [1] [Health] <in [Tea] tiles>",
-			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "P"
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Quarry",
-		"turnsToBuild": 8,
+		"production": 1,
+		"turnsToBuild": 12,
 		"techRequired": "Mining",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
+		"name": "Pasture",
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+			"Provides [1] [Housing]",
+			"Provides [1] [Health] <in [Cattle] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Sheep] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Sheep] and [Cattle] tiles]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 2,
+		"turnsToBuild": 10,
+		"techRequired": "Carpentry",
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [2] [Timber]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Plantation",
+		"gold": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Calendar",
+		"uniques": [
+			"Provides [1] [Housing]",
+			"Provides [1] [Health] <in [Bananas] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Citrus] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Tea] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Bananas], [Citrus] and [Tea] tiles]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Fishing Boats",
-		"turnsToBuild": 7, 
+		"food": 1,
+		"turnsToBuild": 10, 
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Fishing",
 		"uniques": [
 			"Provides [1] [Housing]",
-			"Provides [1] [Health] <in [Fish] tiles>",
-			"Provides [1] [Health] <in [Lake Fish] tiles>",
+			"Provides [1] [Health] <in [Fish] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Lake Fish] tiles> <hidden from users>",
+			"Provides [1] [Health] <in [Crab] tiles> <hidden from users>",
+			"Comment [Provides 1 [Health] in [Fish], [Lake Fish] and [Crab] tiles]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
