@@ -87,6 +87,14 @@
 		]
 	},
 	{
+		"name": "Potatoes", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Plains","Tundra","Hill"],
+		"improvement": "Farm", "improvementStats": {"food": 1},
+		"uniques": [ "Doesn't generate naturally <in [{Hill} {Grassland}] tiles>",
+			"Doesn't generate naturally <in [{Hill} {Snow}] tiles>",
+			"Doesn't generate naturally <in [{Hill} {Desert}] tiles>",
+		]
+	},
+	{
 		"name": "Flax", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Flood plains"],
 		"improvement": "Plantation", "improvementStats": {"production": 2, "gold": -1},
 		"uniques": [
