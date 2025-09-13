@@ -1,214 +1,144 @@
 [
 	{
-		"name": "Housing",
-		"resourceType": "Bonus",
+		"name": "Housing", "resourceType": "Bonus",
 		"uniques": [
-			"Doesn't generate naturally",
-			"City-level resource",
-			"Cannot be traded",
-			"Excluded from map editor",
-			"Not shown on world screen"
+			"Doesn't generate naturally", "City-level resource", "Cannot be traded",
+			"Excluded from map editor", "Not shown on world screen"
 		]
 	},
 	{
-		"name": "Health",
-		"resourceType": "Bonus",
+		"name": "Health", "resourceType": "Bonus",
 		"uniques": [
-			"Doesn't generate naturally",
-			"City-level resource",
-			"Cannot be traded",
-			"Excluded from map editor",
-			"Not shown on world screen"
+			"Doesn't generate naturally", "City-level resource", "Cannot be traded",
+			"Excluded from map editor", "Not shown on world screen"
 		]
 	},
 	{
-		"name": "Influence Points",
-		"resourceType": "Strategic",
+		"name": "Influence Points", "resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Excluded from map editor"
+			"Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"
 		]
 	},
 	{
-		"name": "Goods Industry Slot",
-		"resourceType": "Strategic",
+		"name": "Goods Industry Slot", "resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"City-level resource",
-			"Excluded from map editor",
-			"Not shown on world screen"
+			"Doesn't generate naturally", "Cannot be traded", "City-level resource",
+			"Excluded from map editor", "Not shown on world screen"
 		]
 	},
 	{
-		"name": "Specialisation Slot",
-		"resourceType": "Strategic",
+		"name": "Specialisation Slot", "resourceType": "Strategic",
 		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"City-level resource",
-			"Excluded from map editor",
-			"Not shown on world screen"
+			"Doesn't generate naturally", "Cannot be traded", "City-level resource",
+			"Excluded from map editor", "Not shown on world screen"
 		]
 	},
 	// Bonus resources
     {
-		"name": "Cattle",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"improvement": "Pasture",
-		"improvementStats": {"food": 1},
+		"name": "Cattle", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Grassland"],
+		"improvement": "Pasture", "improvementStats": {"food": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Sheep",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
-		"improvement": "Pasture",
-		"improvementStats": {"production": -1,"food": 2},
+		"name": "Sheep", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Hill"],
+		"improvement": "Pasture", "improvementStats": {"production": -1,"food": 2},
 		"uniques": [
 			"Doesn't generate naturally <in [Snow] tiles>",
 			"Doesn't generate naturally <in [Forest] tiles>",
 		]
 	},
 	{
-		"name": "Deer",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
-		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		"name": "Deer", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"improvement": "Camp", "improvementStats": {"food": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Bananas",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"production": -1, "gold": -1},
+		"name": "Bananas", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Jungle"],
+		"improvement": "Plantation", "improvementStats": {"food": 2,"production": -1, "gold": -1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Wheat",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"], // Desert only if fresh water
-		"improvement": "Farm",
-		"improvementStats": {"production": 1},
+		"name": "Wheat", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"improvement": "Farm", "improvementStats": {"production": 1},
 		"uniques": [
-			"Doesn't generate naturally <in [{Featureless} {Tundra}] tiles>",
-			"Doesn't generate naturally <in [{Featureless} {Desert}] tiles>",
+			"Doesn't generate naturally <in [{Featureless} {Tundra}] tiles>", "Doesn't generate naturally <in [{Featureless} {Desert}] tiles>",
 		]
 	},
 	{
-		"name": "Rice",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
-		"improvement": "Farm",
-		"improvementStats": {"food": 1},
+		"name": "Rice", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Grassland","Marsh"],
+		"improvement": "Farm", "improvementStats": {"food": 1},
 		"uniques": [
 			"Doesn't generate naturally <in tiles without [Fresh Water]>",
 		]
 	},
 	{
-		"name": "Maize",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"improvement": "Farm",
-		"improvementStats": {"gold": 1},
+		"name": "Maize", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"improvement": "Farm", "improvementStats": {"gold": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Flax",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Flood plains"],
-		"improvement": "Plantation",
-		"improvementStats": {"production": 2, "gold": -1},
+		"name": "Flax", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Flood plains"],
+		"improvement": "Plantation", "improvementStats": {"production": 2, "gold": -1},
 		"uniques": [
-			"Generated on every [17] tiles <in [Flood plains] tiles>",
-			"Doesn't generate naturally <in [Tundra] tiles>",
+			"Generated on every [17] tiles <in [Flood plains] tiles>", "Doesn't generate naturally <in [Tundra] tiles>",
 		]
 	},
 	{
-		"name": "Stone",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
-		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
+		"name": "Stone", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
+		"improvement": "Quarry", "improvementStats": {"production": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Clay",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Marsh","Flood plains"],
-		"improvement": "Quarry",
-		"improvementStats": {"culture": 2, "production": -1},
+		"name": "Clay", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Grassland","Marsh","Flood plains"],
+		"improvement": "Quarry", "improvementStats": {"culture": 2, "production": -1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1},
+		"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"food": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Lake Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes"],
-		"improvement": "Fishing Boats",
-		"improvementStats": {"faith": 1},
+		"name": "Lake Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Lakes"],
+		"improvement": "Fishing Boats", "improvementStats": {"faith": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Bison",
-		"resourceType": "Bonus", "terrainsCanBeFoundOn": ["Plains","Grassland","Tundra"],
-		"improvement": "Camp",
-		"improvementStats": {"production": 1},
+		"name": "Bison", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Plains","Grassland","Tundra"],
+		"improvement": "Camp", "improvementStats": {"production": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Minerals",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
-		"improvement": "Mine",
-		"improvementStats": {"science": 1},
+		"name": "Minerals", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Hill"],
+		"improvement": "Mine", "improvementStats": {"science": 1},
 		"uniques": [
 		]
 	},
 	{
-		"name": "Tin",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
-		"improvement": "Mine",
-		"improvementStats": {"gold": 1},
+		"name": "Tin", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Hill"],
+		"improvement": "Mine", "improvementStats": {"gold": 1},
 		"uniques": [
 		]
 	},
 	// Strategic Resources
 	{
-		"name": "Timber",
-		"resourceType": "Strategic",
+		"name": "Timber", "resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",
 		]
 	},
 	{
-		"name": "Horses",
-		"resourceType": "Strategic",
-		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
-		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
+		"name": "Horses", "resourceType": "Strategic", "revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], "improvement": "Pasture", "improvementStats": {"production": 1},
 		"uniques": [
 			"Agricultural Resource",
 			"Guaranteed with Strategic Balance resource option",
@@ -223,12 +153,9 @@
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Iron",
-		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
+		"name": "Iron", "resourceType": "Strategic", "revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"improvement": "Mine",
-		"improvementStats": {"science": 1},
+		"improvement": "Mine", "improvementStats": {"science": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
@@ -248,11 +175,8 @@
 	},
 	//Luxury Resources
 	{
-		"name": "Furs",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
-		"improvement": "Camp",
-		"improvementStats": {"gold": 2},
+		"name": "Furs", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"improvement": "Camp", "improvementStats": {"gold": 2},
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -260,11 +184,8 @@
 		]
 	},
 	{
-		"name": "Cotton",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 2},
+		"name": "Cotton", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"improvement": "Plantation", "improvementStats": {"gold": 2},
 		"uniques": ["Agricultural Resource","Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -272,11 +193,8 @@
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
-		"name": "Dyes",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
-		"improvement": "Plantation",
-		"improvementStats": {"faith": 1,"gold": 1},
+		"name": "Dyes", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"improvement": "Plantation", "improvementStats": {"faith": 1,"gold": 1},
 		"uniques": ["Agricultural Resource","Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -284,11 +202,8 @@
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
-		"name": "Gems",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
-		"improvement": "Mine",
-		"improvementStats": {"production": -1,"gold": 3},
+		"name": "Gems", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"improvement": "Mine", "improvementStats": {"production": -1,"gold": 3},
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>",
@@ -298,11 +213,8 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
 	{
-		"name": "Gold Ore", 
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
-		"improvement": "Mine",
-		"improvementStats": {"production": -1,"gold": 3},
+		"name": "Gold Ore", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
+		"improvement": "Mine", "improvementStats": {"production": -1,"gold": 3},
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -312,11 +224,8 @@
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
 	},
 	{
-		"name": "Silver",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
-		"improvement": "Mine",
-		"improvementStats": {"production": -1,"gold": 3},
+		"name": "Silver", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
+		"improvement": "Mine", "improvementStats": {"production": -1,"gold": 3},
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -330,22 +239,16 @@
 		]
 	},
 	{
-		"name": "Incense",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
-		"improvement": "Plantation",
-		"improvementStats": {"faith": 1,"gold": 1},
+		"name": "Incense", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"improvement": "Plantation", "improvementStats": {"faith": 1,"gold": 1},
 		"uniques": ["Agricultural Resource","Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
 	{
-		"name": "Tobacco",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest"],
-		"improvement": "Plantation",
-		"improvementStats": {"faith": 1,"gold": 1},
+		"name": "Tobacco", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Forest"],
+		"improvement": "Plantation", "improvementStats": {"faith": 1,"gold": 1},
 		"uniques": ["Agricultural Resource",
 			"Generated on every [20] tiles <in [{Forest} {Grassland}] tiles>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -357,11 +260,8 @@
 		]
 	},
 	{
-		"name": "Tea",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland", "Hill"],
-		"improvement": "Plantation",
-		"improvementStats": {"science": 1,"gold": 1},
+		"name": "Tea", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Grassland", "Hill"],
+		"improvement": "Plantation", "improvementStats": {"science": 1,"gold": 1},
 		"uniques": [
 			"Generated on every [25] tiles <in [Grassland] tiles>",
 			"Generated with weight [10] <in [Grassland] Regions>",
@@ -373,22 +273,16 @@
 		]
 	},
 	{
-		"name": "Ivory",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"improvement": "Camp",
-		"improvementStats": {"production": 1,"gold": 1},
+		"name": "Ivory", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"improvement": "Camp", "improvementStats": {"production": 1,"gold": 1},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{
-		"name": "Silk",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
-		"improvement": "Plantation",
-		"improvementStats": {"culture": 1,"gold": 1},
+		"name": "Silk", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"improvement": "Plantation", "improvementStats": {"culture": 1,"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
@@ -396,11 +290,8 @@
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
-		"name": "Spices",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2},
+		"name": "Spices", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"improvement": "Plantation", "improvementStats": {"food": 2},
 		"uniques": ["Agricultural Resource","Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -411,22 +302,16 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 	{
-		"name": "Wine",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"improvement": "Plantation",
-		"improvementStats": {"food": 1,"gold": 1},
+		"name": "Wine", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"improvement": "Plantation", "improvementStats": {"food": 1,"gold": 1},
 		"uniques": ["Agricultural Resource","Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
 	{
-		"name": "Sugar",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
+		"name": "Sugar", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2},
+		"improvement": "Plantation", "improvementStats": {"food": 2},
 		"uniques": ["Agricultural Resource","Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -435,21 +320,15 @@
 					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
 	{
-		"name": "Marble",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
-		"improvement": "Quarry",
-		"improvementStats": {"culture": 1, "gold": 1},
+		"name": "Marble", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"improvement": "Quarry", "improvementStats": {"culture": 1, "gold": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
 					"Special placement during map generation",
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{
-		"name": "Whales",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1,"gold": 1},
+		"name": "Whales", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"food": 1,"gold": 1},
 		"uniques": [
 			"Fishing Resource",
 			"Generated with weight [35] <in [Tundra] Regions>",	
@@ -461,11 +340,8 @@
 			"Generated near City States with weight [10]"]
 	},
 	{
-		"name": "Pearls",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": -1,"gold": 3},
+		"name": "Pearls", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"food": -1,"gold": 3},
 		"uniques": [
 			"Fishing Resource",
 			"Generated with weight [20] <in [Jungle] Regions>",
@@ -490,11 +366,8 @@
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
-		"name": "Citrus",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2},
+		"name": "Citrus", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"improvement": "Plantation", "improvementStats": {"food": 2},
 		"uniques": ["Agricultural Resource","Generated with weight [35] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -503,11 +376,8 @@
 					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	{
-		"name": "Copper",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
-		"improvement": "Mine",
-		"improvementStats": {"production": 1,"gold": 1},
+		"name": "Copper", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
+		"improvement": "Mine", "improvementStats": {"production": 1,"gold": 1},
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -521,11 +391,8 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
 	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"], // Forest only if flat, non-tundra
-		"improvementStats": {"food": 1,"gold": 1},
-		"improvement": "Plantation"
+		"name": "Cocoa", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Jungle"], // Forest only if flat, non-tundra
+		"improvementStats": {"food": 1,"gold": 1}, "improvement": "Plantation"
 		"uniques": [
 			"Generated with weight [35] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Grassland] Regions>",
@@ -533,11 +400,8 @@
 		]
 	},
 	{
-		"name": "Crab",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1,"gold": 1},
+		"name": "Crab", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"food": 1,"gold": 1},
 		"uniques": [
 			"Fishing Resource",
 			"Generated with weight [30] <in [Tundra] Regions>",	
@@ -550,11 +414,8 @@
 			"Generated near City States with weight [15]"]
 	},
 	{
-		"name": "Salt",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
-		"improvement": "Mine",
-		"improvementStats": {"food": 2,"gold": 1, "production": -1},
+		"name": "Salt", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
+		"improvement": "Mine", "improvementStats": {"food": 2,"gold": 1, "production": -1},
 		"uniques": [
 			"Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -566,11 +427,8 @@
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
 	},
 	{
-		"name": "Truffles",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
-		"improvement": "Camp",
-		"improvementStats": {"gold": 3, "food": -1},
+		"name": "Truffles", "resourceType": "Luxury", "terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"improvement": "Camp", "improvementStats": {"gold": 3, "food": -1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -581,17 +439,13 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 	{
-		"name": "Beer",
-		"resourceType": "Luxury",
-		"gold": 2,
+		"name": "Beer", "resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally"
 		]
 	},
 	{
-		"name": "Furniture",
-		"resourceType": "Luxury",
-		"gold": 2,
+		"name": "Furniture", "resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally"
 		]
