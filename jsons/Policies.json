@@ -1,11 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Ancient era",
-        "priorities": {
-            "Neutral": 5,
-            "Domination": 5,
-        },
+        "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
@@ -17,8 +13,7 @@
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
-                "row": 1,
-                "column": 1
+                "row": 1,"column": 1
             },
             {
                 "name": "Legalism",
@@ -68,7 +63,6 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Domination": 5,
@@ -133,7 +127,6 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Domination": 5,
