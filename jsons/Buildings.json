@@ -581,7 +581,7 @@
 			"[+1 Gold] from [Pearls] tiles [in this city]",
 			"Provides [1] [Jewelry]",
 		]
-		"requiredTech": "Animal Husbandry",
+		"requiredTech": "Craftsmanship",
 		"requiredResource": "Goods Industry Slot",
 	},
 	{
