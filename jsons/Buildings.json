@@ -151,7 +151,8 @@
 			"Provides [1] [Porcelain]",
 			"[+1 Gold] from [Clay] tiles [in this city]",
 			"[+1 Gold] from [Minerals] tiles [in this city]"
-		]
+		],
+		"requiredResource": "Goods Industry Slot",
 	},
 	{
 		"name": "Etemenanki",
@@ -250,7 +251,8 @@
 			"[+1 Gold] from [Rice] tiles [in this city]",
 			"[+1 Gold] from [Maize] tiles [in this city]",
 		],
-		"requiredTech": "Calendar"
+		"requiredTech": "Calendar",
+		"requiredResource": "Goods Industry Slot",
 	},
 	{
 		"name": "Wine Cellar",
