@@ -199,6 +199,7 @@
 			"Provides [1] [Health] <in [Cattle] tiles> <hidden from users>",
 			"Provides [1] [Health] <in [Sheep] tiles> <hidden from users>",
 			"Comment [Provides 1 [Health] in [Sheep] and [Cattle] tiles]",
+			"Provides [1] [Cloth] <in [Sheep] tiles> <in cities with a [Weavery]> <hidden from users>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -227,6 +228,9 @@
 			"Provides [1] [Health] <in [Citrus] tiles> <hidden from users>",
 			"Provides [1] [Health] <in [Tea] tiles> <hidden from users>",
 			"Comment [Provides 1 [Health] in [Bananas], [Citrus] and [Tea] tiles]",
+			"Provides [1] [Cloth] <in [Flax] tiles> <in cities with a [Weavery]> <hidden from users>",
+			"Provides [1] [Luxury Cloth] <in [Silk] tiles> <in cities with a [Weavery]> <hidden from users>",
+			"Provides [1] [Luxury Cloth] <in [Cotton] tiles> <in cities with a [Weavery]> <hidden from users>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
