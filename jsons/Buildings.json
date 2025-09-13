@@ -192,6 +192,20 @@
 		"requiredResource": "Goods Industry Slot",
 	},
 	{
+		"name": "Cheesemaker",
+		"food": 1,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Sheep] tiles [in this city]",
+			"[+1 Gold] from [Cattle] tiles [in this city]",
+			"Provides [1] [Cheese]",
+		]
+		"requiredTech": "Animal Husbandry",
+		"requiredResource": "Goods Industry Slot",
+	},
+	{
 		"name": "Temple of Artemis",
 		"culture": 1,
 		"isWonder": true,
