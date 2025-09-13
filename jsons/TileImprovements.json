@@ -158,8 +158,6 @@
 			"Comment [Provides 1 [Health] in [Deer] and [Bison] tiles]",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Food] from [Forest] tiles",
-			"[+1 Food] from [Jungle] tiles",
 			"[+1 Gold] <after discovering [Trade]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
