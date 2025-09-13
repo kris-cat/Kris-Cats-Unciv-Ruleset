@@ -41,6 +41,12 @@
 		]
 	},
 	{
+		"name": "Camels", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Desert"],
+		"improvement": "Pasture", "improvementStats": {"gold": 1},
+		"uniques": [
+		]
+	},
+	{
 		"name": "Sheep", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Hill"],
 		"improvement": "Pasture", "improvementStats": {"production": -1,"food": 2},
 		"uniques": [
@@ -446,6 +452,24 @@
 	},
 	{
 		"name": "Furniture", "resourceType": "Luxury",
+		"uniques": [
+			"Doesn't generate naturally"
+		]
+	}
+	{
+		"name": "Cheese", "resourceType": "Luxury",
+		"uniques": [
+			"Doesn't generate naturally"
+		]
+	},
+	{
+		"name": "Cloth", "resourceType": "Luxury",
+		"uniques": [
+			"Doesn't generate naturally"
+		]
+	}
+	{
+		"name": "Luxury Cloth", "resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally"
 		]
