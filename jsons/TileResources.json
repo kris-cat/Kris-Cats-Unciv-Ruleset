@@ -42,7 +42,7 @@
 	},
 	{
 		"name": "Camels", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Desert"],
-		"improvement": "Pasture", "improvementStats": {"gold": 1},
+		"improvement": "Pasture", "improvementStats": {"production": -1, "gold": 2},
 		"uniques": [
 		]
 	},
