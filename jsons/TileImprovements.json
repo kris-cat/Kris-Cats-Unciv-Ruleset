@@ -251,6 +251,7 @@
 			"Provides [1] [Health] <in [Lake Fish] tiles> <hidden from users>",
 			"Provides [1] [Health] <in [Crab] tiles> <hidden from users>",
 			"Comment [Provides 1 [Health] in [Fish], [Lake Fish] and [Crab] tiles]",
+			"Provides [1] [Jewelry] <in [Pearls] tiles> <in cities with a [Jeweler]> <hidden from users>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
