@@ -26,6 +26,15 @@
         "Provides [1] [Specialisation Slot] <in cities with at least [13] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [19] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [26] [Population]>",
+
+        //Goods Industry Slots
+
+        "Provides [1] [Goods Industry Slot] <in [all] cities>",
+        "Provides [1] [Goods Industry Slot] <in cities with at least [4] [Population]>",
+        "Provides [1] [Goods Industry Slot] <in cities with at least [8] [Population]>",
+        "Provides [1] [Goods Industry Slot] <in cities with at least [13] [Population]>",
+        "Provides [1] [Goods Industry Slot] <in cities with at least [19] [Population]>",
+        "Provides [1] [Goods Industry Slot] <in cities with at least [26] [Population]>",
         
         // Housing
         "[-9999 Food] [in this city] <when below [0] [Housing]>",
