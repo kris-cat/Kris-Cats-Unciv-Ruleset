@@ -177,6 +177,7 @@
 		"uniques": [
 			"Provides [1] [Health] <in [Salt] tiles> <hidden from users>",
 			"Comment [Provides 1 [Health] in [Salt] tiles]",
+			"Provides [1] [Jewelry] <in [Gems] tiles> <in cities with a [Jeweler]> <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "M"
