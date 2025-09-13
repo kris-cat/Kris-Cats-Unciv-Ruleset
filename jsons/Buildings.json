@@ -568,7 +568,21 @@
 			"Consumes [2] [Timber]",
 			"Provides [1] [Furniture]",
 		]
-		"requiredTech": "Craftsmanship"
+		"requiredTech": "Craftsmanship",
+		"requiredResource": "Goods Industry Slot"
+	},
+	{
+		"name": "Jeweler",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Gems","Pearls"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Gems] tiles [in this city]",
+			"[+1 Gold] from [Pearls] tiles [in this city]",
+			"Provides [1] [Jewelry]",
+		]
+		"requiredTech": "Animal Husbandry",
+		"requiredResource": "Goods Industry Slot",
 	},
 	{
 		"name": "Walls",
