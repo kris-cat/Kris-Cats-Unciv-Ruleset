@@ -169,7 +169,7 @@
 	{
 		"name": "Iron", "resourceType": "Strategic", "revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"improvement": "Mine", "improvementStats": {"science": 1},
+		"improvement": "Mine", "improvementStats": {"production": 1, "science": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
