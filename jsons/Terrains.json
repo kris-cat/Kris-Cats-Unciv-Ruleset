@@ -267,7 +267,7 @@
 		"movementCost": 1,
 		"overrideStats": true,
 		"defenceBonus": -0.1,
-		"occursOn": ["Grassland","Plains","Desert","Tundra"],
+		"occursOn": ["Grassland","Plains","Desert"],
 		"uniques": [
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
