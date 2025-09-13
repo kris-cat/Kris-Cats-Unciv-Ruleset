@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "priorities": {"Neutral": 5,"Domination": 5,},
+        "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": [
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
