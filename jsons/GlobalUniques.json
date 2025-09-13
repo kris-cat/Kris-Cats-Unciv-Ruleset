@@ -27,9 +27,7 @@
         "Provides [1] [Specialisation Slot] <in cities with at least [26] [Population]>",
         
         // Housing
-
-        /*"[-100 Food] per [1] population [in all cities] <when below [0] [Housing]>",*/
-        "[-100 Food] per [1] population [in this city] <when below [0] [Housing]>",
+        "[-9999 Food] [in this city] <when below [0] [Housing]>",
         
         "Provides [6] [Housing] <in [all] cities>",
         "Provides [-2] [Housing] <in cities with at least [1] [Population]>",
@@ -84,8 +82,6 @@
         "Provides [-2] [Housing] <in cities with at least [50] [Population]>",
 
         // Health
-
-        /*"[-1 Food] per [1] population [in all cities] <when below [0] [Health]>",*/
         "[-1 Food] per [1] population [in this city] <when below [0] [Health]>",
 
         "Provides [3] [Health] <in [all] cities>",
