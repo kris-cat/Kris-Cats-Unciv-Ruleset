@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tradition",
+        "name": "Tradition",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": [
             "[+3 Culture] [in capital]",
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "name": "Liberty",
+        "name": "Liberty",  "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Domination": 5,
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "name": "Honor",
+        "name": "Honor",  "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Domination": 5,
