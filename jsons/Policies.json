@@ -3,187 +3,90 @@
         "name": "Tradition",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": [
-            "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "Unavailable <after adopting [Progress]>",
+            "[+1 Culture] per [3] population [in capital]",
+            "[+15]% growth [in capital]",
         ],
         "policies": [
             {
-                "name": "Aristocracy",
-                "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
-                ],
-                "row": 1,"column": 1
+                "name": "Tradition1",
+                "uniques": [ 
+                    "[-25]% Culture cost of natural border growth [in all cities]",
+                    "[+1 Culture] [in all cities]"
+                ],"row": 1,"column": 1
             },
             {
-                "name": "Legalism",
+                "name": "Tradition2",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
-                ],
-                "row": 1,
-                "column": 3
+                    "[+2 Food] [in capital]",
+                    "[-50]% Food consumption by specialists [in capital]",
+                ],"row": 1,"column": 3
             },
             {
-                "name": "Oligarchy",
+                "name": "Tradition3",
                 "uniques": [
-                    "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
                 ],
-                "row": 1,
-                "column": 5
+                "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
             },
             {
-                "name": "Landed Elite",
+                "name": "Tradition4",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "Provides [3] [Health] <in [Capital] cities>",
+                    "Provides [4] [Housing] <in [Capital] cities>",
                 ],
-                "requires": ["Legalism"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Monarchy",
-                "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
-                ],
-                "requires": ["Legalism"],
-                "row": 2,
-                "column": 4
+                "requires": ["Tradition2"],"row": 2,"column": 3
             },
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "Provides a [Cistern] in your first [4] cities for free"
+                    "[+25]% Great Person generation [in capital]",
+                    "[+1 Culture] from every specialist [in all cities]"
                 ]
             }
         ]
     },
     {
-        "name": "Liberty",  "era": "Ancient era",
-        "priorities": {
-            "Neutral": 5,
-            "Domination": 5,
-        },
-        "uniques": ["[+1 Culture] [in all cities]"],
-        "policies": [
-            {
-                "name": "Republic",
-                "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Citizenship",
-                "uniques": [
-                    "Can build [all] improvements at a [+25]% rate",
-                    "Free [Worker] appears",
-                    "[-100]% weight to this choice for AI decisions"
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Collective Rule",
-                "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears"
-                ],
-                "requires": ["Republic"],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Representation",
-                "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
-                ],
-                "requires": ["Citizenship"],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Meritocracy",
-                "uniques": [
-                    "[+1 Happiness] [in all cities connected to capital]",
-                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-                    "[-100]% weight to this choice for AI decisions"
-                ],
-                "requires": ["Citizenship"],
-                "row": 2,
-                "column": 5
-            },
-            {
-                "name": "Liberty Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Honor",  "era": "Ancient era",
-        "priorities": {
-            "Neutral": 5,
-            "Domination": 5,
-        },
+        "name": "Progress",  "era": "Ancient era",
+        "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
+            "Unavailable <after adopting [Tradition]>",
+            "[+1 Science] per [3] population [in capital]",
+            "[+2 Gold] [in all cities]",
         ],
         "policies": [
             {
-                "name": "Warrior Code",
+                "name": "Progress1",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
-                ],
-                "row": 1,
-                "column": 2
+                    "[+1 Gold, +2 Food] from each Trade Route",
+                ],"row": 1,"column": 1
             },
             {
-                "name": "Discipline",
+                "name": "Progress2",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
-                ],
-                "row": 1,
-                "column": 4
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Worker] appears",
+                ],"row": 1,"column": 3
             },
             {
-                "name": "Military Tradition",
+                "name": "Progress3",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>"
-                ],
-                "requires": ["Warrior Code"],
-                "row": 2,
-                "column": 2
+                    "[+1 Science] per [3] social policies adopted",
+                    "Gain [25] [Culture] <upon discovering [all] technology>",
+                ],"row": 1,"column": 5
             },
             {
-                "name": "Military Caste",
+                "name": "Progress4",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                    "[+15]% Production when constructing [Buildings] buildings [in all cities]",
+                    "Gain [25] [Gold] <upon constructing [Building]>",
                 ],
-                "requires": ["Discipline"],
-                "row": 2,
-                "column": 4
+                "requires": ["Progress2"],"row": 2,"column": 3
             },
             {
-                "name": "Professional Army",
+                "name": "Progress Complete",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
-                ],
-                "requires": ["Military Caste"],
-                "row": 3,
-                "column": 4
-            },
-            {
-                "name": "Honor Complete",
-                "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                    "[+3 Production] [in all cities]",
                 ]
             }
         ]
