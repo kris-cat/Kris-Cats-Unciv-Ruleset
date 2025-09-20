@@ -261,9 +261,7 @@
 		"uniques": [
 			"Goods Production building",
 			"Provides [1] [Beer]",
-			"Provides [1] [Beer] <in [{Farm} {Wheat}] tiles> <in this city>",
-			"Provides [1] [Beer] <in [{Farm} {Rice}] tiles> <in this city>",
-			"Provides [1] [Beer] <in [{Farm} {Maize}] tiles> <in this city>",
+			"Provides [1] [Beer] <for every adjacent [Wheat]> <in this city>",
 			"[+1 Gold] from [Wheat] tiles [in this city]",
 			"[+1 Gold] from [Rice] tiles [in this city]",
 			"[+1 Gold] from [Maize] tiles [in this city]",
