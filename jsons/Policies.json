@@ -20,7 +20,7 @@
                 "uniques": [
                     "[+2 Food] [in capital]",
                     "[-50]% Food consumption by specialists [in capital]",
-                ],"row": 1,"column": 3
+                ],"row": 1,"column": 5
             },
             {
                 "name": "Tradition3",
@@ -36,7 +36,7 @@
                     "Provides [4] [Health] <in [Capital] cities>",
                     "Provides [4] [Housing] <in [Capital] cities>",
                 ],
-                "requires": ["Tradition2"],"row": 2,"column": 3
+                "requires": ["Tradition2"],"row": 2,"column": 5
             },
             {
                 "name": "Tradition Complete",
@@ -85,6 +85,97 @@
             },
             {
                 "name": "Progress Complete",
+                "uniques": [
+                    "[+1 Gold, +3 Production] [in all cities]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Subservience",  "era": "Ancient era",
+        "priorities": {"Neutral": 5,"Domination": 5},
+        "uniques": [
+            "Unavailable <after adopting [Liberty]>",
+            "[15]% growth [in all cities]",
+            "[-20]% Unhappiness from [Population] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Subservience1",
+                "uniques": [ 
+                    "[+2 Gold] per [5] population [in capital]",
+                ],"row": 1,"column": 1
+            },
+            {
+                "name": "Subservience2",
+                "uniques": [
+                    "[+2 Food] [in capital]",
+                    "[-50]% Food consumption by specialists [in all cities]",
+                ],"row": 1,"column": 3
+            },
+            {
+                "name": "Subservience3",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+                    "[+1 Science] per [4] population [in capital]",
+                ],
+                "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
+            },
+            {
+                "name": "Subservience4",
+                "uniques": [
+                    "Provides [4] [Health] <in [Capital] cities>",
+                    "Provides [4] [Housing] <in [Capital] cities>",
+                ],
+                "requires": ["Tradition2"],"row": 2,"column": 3
+            },
+            {
+                "name": "Subservience Complete",
+                "uniques": [
+                    "[+25]% Great Person generation [in capital]",
+                    "[+1 Culture] from every specialist [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liberty",  "era": "Ancient era",
+        "priorities": {"Neutral": 5,"Domination": 5,},
+        "uniques": [
+            "Unavailable <after adopting [Tradition]>",
+            "[+1 Science] per [2] social policies adopted",
+            "[+2 Gold] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Liberty1",
+                "uniques": [
+                    "[+2 Science, +2 Food] from each Trade Route",
+                ],"row": 1,"column": 1
+            },
+            {
+                "name": "Liberty2",
+                "uniques": [
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Worker] appears",
+                ],"row": 1,"column": 3
+            },
+            {
+                "name": "Liberty3",
+                "uniques": [
+                    "Gain [25] [Culture] <upon discovering [all] technology>",
+                ],"row": 1,"column": 5
+            },
+            {
+                "name": "Liberty4",
+                "uniques": [
+                    "[+15]% Production when constructing [Buildings] buildings [in all cities]",
+                    "Gain [25] [Gold] <upon constructing [Building]>",
+                ],
+                "requires": ["Progress2"],"row": 2,"column": 3
+            },
+            {
+                "name": "Liberty Complete",
                 "uniques": [
                     "[+1 Gold, +3 Production] [in all cities]",
                 ]
