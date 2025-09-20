@@ -26,13 +26,14 @@
                 "name": "Tradition3",
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+                    "[+1 Science] per [4] population [in capital]",
                 ],
                 "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
             },
             {
                 "name": "Tradition4",
                 "uniques": [
-                    "Provides [3] [Health] <in [Capital] cities>",
+                    "Provides [4] [Health] <in [Capital] cities>",
                     "Provides [4] [Housing] <in [Capital] cities>",
                 ],
                 "requires": ["Tradition2"],"row": 2,"column": 3
@@ -51,14 +52,14 @@
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "Unavailable <after adopting [Tradition]>",
-            "[+1 Science] per [3] population [in capital]",
+            "[+1 Science] per [2] social policies adopted",
             "[+2 Gold] [in all cities]",
         ],
         "policies": [
             {
                 "name": "Progress1",
                 "uniques": [
-                    "[+1 Gold, +2 Food] from each Trade Route",
+                    "[+2 Science, +2 Food] from each Trade Route",
                 ],"row": 1,"column": 1
             },
             {
@@ -71,7 +72,6 @@
             {
                 "name": "Progress3",
                 "uniques": [
-                    "[+1 Science] per [3] social policies adopted",
                     "Gain [25] [Culture] <upon discovering [all] technology>",
                 ],"row": 1,"column": 5
             },
@@ -86,7 +86,7 @@
             {
                 "name": "Progress Complete",
                 "uniques": [
-                    "[+3 Production] [in all cities]",
+                    "[+1 Gold, +3 Production] [in all cities]",
                 ]
             }
         ]
