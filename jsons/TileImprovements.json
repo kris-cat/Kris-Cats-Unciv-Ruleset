@@ -152,7 +152,6 @@
 	},
 	{
 		"name": "Camp",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"food": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Agriculture",
