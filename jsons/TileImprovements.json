@@ -156,6 +156,7 @@
 		"turnsToBuild": 10,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"Can only be built to improve a resource",
 			"Provides [1] [Housing]",
 			"Provides [1] [Health] <in [Deer] tiles> <hidden from users>",
 			"Provides [1] [Health] <in [Bison] tiles> <hidden from users>",
