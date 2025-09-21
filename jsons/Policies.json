@@ -12,7 +12,7 @@
                 "name": "Tradition1",
                 "uniques": [ 
                     "[-25]% Culture cost of natural border growth [in all cities]",
-                    "[+1 Culture] [in all cities]"
+                    "[+2 Culture] [in all cities]"
                 ],"row": 1,"column": 1
             },
             {
@@ -26,7 +26,7 @@
                 "name": "Tradition3",
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-                    "[+1 Science] per [4] population [in capital]",
+                    "[+1 Science] per [3] population [in capital]",
                 ],
                 "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
             },
@@ -52,7 +52,7 @@
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "Unavailable <after adopting [Tradition]>",
-            "[+1 Science] per [2] social policies adopted",
+            "[+1 Science] per [3] population [in capital]",
             "[+2 Gold] [in all cities]",
         ],
         "policies": [
@@ -60,6 +60,7 @@
                 "name": "Progress1",
                 "uniques": [
                     "[+2 Science, +2 Food] from each Trade Route",
+                    "[-25]% maintenance on road & railroads"
                 ],"row": 1,"column": 1
             },
             {
@@ -72,6 +73,7 @@
             {
                 "name": "Progress3",
                 "uniques": [
+                    "[+1 Science] per [2] social policies adopted",
                     "Gain [25] [Culture] <upon discovering [all] technology>",
                 ],"row": 1,"column": 5
             },
@@ -103,14 +105,14 @@
             {
                 "name": "Subservience1",
                 "uniques": [ 
-                    "[+2 Gold] per [5] population [in capital]",
+                    "[+2 Gold] per [5] population [in all cities]",
                 ],"row": 1,"column": 1
             },
             {
                 "name": "Subservience2",
                 "uniques": [
                     "[+2 Food] [in capital]",
-                    "[-50]% Food consumption by specialists [in all cities]",
+                    "[-25]% Food consumption by specialists [in all cities]",
                 ],"row": 1,"column": 3
             },
             {
@@ -119,7 +121,7 @@
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]",
                     "[+1 Science] per [4] population [in capital]",
                 ],
-                "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
+                "requires": ["Subservience1"],"row": 2,"column": 1
             },
             {
                 "name": "Subservience4",
@@ -127,7 +129,7 @@
                     "Provides [4] [Health] <in [Capital] cities>",
                     "Provides [4] [Housing] <in [Capital] cities>",
                 ],
-                "requires": ["Tradition2"],"row": 2,"column": 3
+                "requires": ["Subservience2"],"row": 2,"column": 3
             },
             {
                 "name": "Subservience Complete",
