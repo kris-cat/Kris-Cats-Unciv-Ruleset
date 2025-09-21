@@ -99,43 +99,43 @@
         "uniques": [
             "Unavailable <after adopting [Liberty]>",
             "[15]% growth [in all cities]",
-            "[-20]% Unhappiness from [Population] [in all cities]"
+            "Gain [25] [Food] <upon constructing [Food]>"
         ],
         "policies": [
             {
                 "name": "Subservience1",
                 "uniques": [ 
-                    "[+2 Gold] per [5] population [in all cities]",
+                    "[+1 Gold] per [5] population [in all cities]",
+                    "[-20]% Unhappiness from [Population] [in all cities]"
                 ],"row": 1,"column": 1
             },
             {
                 "name": "Subservience2",
                 "uniques": [
-                    "[+2 Food] [in capital]",
-                    "[-25]% Food consumption by specialists [in all cities]",
+                    "[-25]% maintenance cost for [Happiness] buildings [in all cities]",
                 ],"row": 1,"column": 3
             },
             {
                 "name": "Subservience3",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-                    "[+1 Science] per [4] population [in capital]",
+                    "[-25]% unhappiness from the number of cities",
+                    "[+2 Production] from each Trade Route",
                 ],
-                "requires": ["Subservience1"],"row": 2,"column": 1
+                "requires": ["Subservience1"],"row": 2,"column": 2
             },
             {
                 "name": "Subservience4",
                 "uniques": [
-                    "Provides [4] [Health] <in [Capital] cities>",
-                    "Provides [4] [Housing] <in [Capital] cities>",
+                    "[+1 Faith] per [5] population [in all cities]",
+                    "[+1 Culture] from every [Faith]",
                 ],
                 "requires": ["Subservience2"],"row": 2,"column": 3
             },
             {
                 "name": "Subservience Complete",
                 "uniques": [
-                    "[+25]% Great Person generation [in capital]",
-                    "[+1 Culture] from every specialist [in all cities]"
+                    "[+25]% Food is carried over after population increases [in all cities]",
+                    "[+1 Happiness] per [5] social policies adopted"
                 ]
             }
         ]
@@ -144,7 +144,7 @@
         "name": "Liberty",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
-            "Unavailable <after adopting [Tradition]>",
+            "Unavailable <after adopting [Subservience]>",
             "[+1 Science] per [2] social policies adopted",
             "[+2 Gold] [in all cities]",
         ],
@@ -178,6 +178,96 @@
             },
             {
                 "name": "Liberty Complete",
+                "uniques": [
+                    "[+1 Gold, +3 Production] [in all cities]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dominion",  "era": "Ancient era",
+        "priorities": {"Neutral": 5,"Domination": 5},
+        "uniques": [
+            "Unavailable <after adopting [Vigilance]>",
+            "[15]% growth [in all cities]",
+            "[-20]% Unhappiness from [Population] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Dominion1",
+                "uniques": [ 
+                    "[+1 Gold] per [5] population [in all cities]",
+                ],"row": 1,"column": 1
+            },
+            {
+                "name": "Dominion2",
+                "uniques": [
+                    "[+2 Food] [in capital]",
+                ],"row": 1,"column": 3
+            },
+            {
+                "name": "Dominion3",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+                    "[+1 Science] per [4] population [in capital]",
+                ],
+                "requires": ["Dominion1"],"row": 2,"column": 2
+            },
+            {
+                "name": "Dominion4",
+                "uniques": [
+                    "Provides [4] [Health] <in [Capital] cities>",
+                    "Provides [4] [Housing] <in [Capital] cities>",
+                ],
+                "requires": ["Dominion2"],"row": 2,"column": 3
+            },
+            {
+                "name": "Dominion Complete",
+                "uniques": [
+                    "[+25]% Great Person generation [in capital]",
+                    "[+1 Culture] from every specialist [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vigilance",  "era": "Ancient era",
+        "priorities": {"Neutral": 5,"Domination": 5,},
+        "uniques": [
+            "Unavailable <after adopting [Dominion]>",
+            "[+1 Science] per [2] social policies adopted",
+            "[+2 Gold] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Vigilance1",
+                "uniques": [
+                    "[+2 Science, +2 Food] from each Trade Route",
+                ],"row": 1,"column": 1
+            },
+            {
+                "name": "Vigilance2",
+                "uniques": [
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Worker] appears",
+                ],"row": 1,"column": 3
+            },
+            {
+                "name": "Vigilance3",
+                "uniques": [
+                    "Gain [25] [Culture] <upon discovering [all] technology>",
+                ],"row": 1,"column": 5
+            },
+            {
+                "name": "Vigilance4",
+                "uniques": [
+                    "[+15]% Production when constructing [Buildings] buildings [in all cities]",
+                    "Gain [25] [Gold] <upon constructing [Building]>",
+                ],
+                "requires": ["Vigilance2"],"row": 2,"column": 3
+            },
+            {
+                "name": "Vigilance Complete",
                 "uniques": [
                     "[+1 Gold, +3 Production] [in all cities]",
                 ]
