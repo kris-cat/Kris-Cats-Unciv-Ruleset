@@ -98,7 +98,7 @@
         ]
     },
     {
-        "name": "Subservience",  "era": "Ancient era",
+        "name": "Authority",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": [
             "Only available <before adopting [Liberty]>",
@@ -107,20 +107,20 @@
         ],
         "policies": [
             {
-                "name": "Subservience1",
+                "name": "Authority1",
                 "uniques": [ 
                     "[+1 Gold] per [5] population [in all cities]",
                     "[-20]% Unhappiness from [Population] [in all cities]"
                 ],"row": 1,"column": 1
             },
             {
-                "name": "Subservience2",
+                "name": "Authority2",
                 "uniques": [
                     "[-25]% maintenance cost for [Happiness] buildings [in all cities]",
                 ],"row": 1,"column": 5
             },
             {
-                "name": "Subservience3",
+                "name": "Authority3",
                 "uniques": [
                     "[-25]% Unhappiness from [Specialists] [in all cities]",
                     "[+1 Culture] per [5] population [in all cities]",
@@ -128,7 +128,7 @@
                 "requires": ["Subservience1"],"row": 2,"column": 2
             },
             {
-                "name": "Subservience4",
+                "name": "Authority4",
                 "uniques": [
                     "[+1 Faith] per [5] population [in all cities]",
                     "[+1 Culture] from every [Faith]",
@@ -136,7 +136,7 @@
                 "requires": ["Subservience2"],"row": 2,"column": 4
             },
             {
-                "name": "Subservience Complete",
+                "name": "Authority Complete",
                 "uniques": [
                     "[+25]% Food is carried over after population increases [in all cities]",
                     "[+20]% Golden Age length"
@@ -148,7 +148,7 @@
         "name": "Liberty",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
-            "Only available <before adopting [Subservience]>",
+            "Only available <before adopting [Authority]>",
             "[+1 Science] per [2] social policies adopted",
             "[+2 Gold] [in all cities]",
         ],
