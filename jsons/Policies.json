@@ -117,7 +117,7 @@
                 "name": "Subservience2",
                 "uniques": [
                     "[-25]% maintenance cost for [Happiness] buildings [in all cities]",
-                ],"row": 1,"column": 3
+                ],"row": 1,"column": 5
             },
             {
                 "name": "Subservience3",
@@ -133,7 +133,7 @@
                     "[+1 Faith] per [5] population [in all cities]",
                     "[+1 Culture] from every [Faith]",
                 ],
-                "requires": ["Subservience2"],"row": 2,"column": 3
+                "requires": ["Subservience2"],"row": 2,"column": 4
             },
             {
                 "name": "Subservience Complete",
@@ -194,7 +194,7 @@
         "uniques": [
             "Only available <before adopting [Vigilance]>",
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
         ],
         "policies": [
             {
@@ -236,7 +236,7 @@
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "Only available <before adopting [Dominion]>",
-            "[+2 Culture] [in all cities with a garrison]",
+            "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
             "Units in cities cost no Maintenance",
         ],
         "policies": [
@@ -244,15 +244,14 @@
                 "name": "Vigilance1",
                 "uniques": [
                     "Can build [Fort] improvements at a [+25]% rate",
-                    "[+2 Production] from [Fort] tiles [in all cities] <when at war>",
-                    "[+1 Science, +1 Gold] from [Fort] tiles [in all cities] <when not at war>",
+                    "[+1 Production] from [Fort] tiles [in all cities] <when not at war>",
                 ],"row": 1,"column": 2
             },
             {
                 "name": "Vigilance2",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
-                    "Free [Worker] appears",
+                    "[-15]% maintenance costs <for [Military] units>",
                 ],"row": 1,"column": 4
             },
             {
