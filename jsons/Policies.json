@@ -125,7 +125,7 @@
                     "[-25]% Unhappiness from [Specialists] [in all cities]",
                     "[+1 Culture] per [5] population [in all cities]",
                 ],
-                "requires": ["Subservience1"],"row": 2,"column": 2
+                "requires": ["Authority1"],"row": 2,"column": 2
             },
             {
                 "name": "Authority4",
@@ -133,7 +133,7 @@
                     "[+1 Faith] per [5] population [in all cities]",
                     "[+1 Culture] from every [Faith]",
                 ],
-                "requires": ["Subservience2"],"row": 2,"column": 4
+                "requires": ["Authority2"],"row": 2,"column": 4
             },
             {
                 "name": "Authority Complete",
