@@ -214,14 +214,14 @@
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>"
                 ],
-                "requires": ["Warrior Code"],"row": 2,"column": 2
+                "requires": ["Dominion2"],"row": 2,"column": 2
             },
             {
                 "name": "Dominion4",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
-                "requires": ["Discipline"],"row": 2,"column": 4
+                "requires": ["Dominion2"],"row": 2,"column": 4
             },
             {
                 "name": "Dominion Complete",
