@@ -200,7 +200,7 @@
                     "[+15]% Production when constructing [Buildings] buildings [in all cities]",
                     "Gain [25] [Gold] <upon constructing [Building]>",
                 ],
-                "requires": ["Progress2"],"row": 2,"column": 3
+                "requires": ["Liberty2"],"row": 2,"column": 3
             },
             {
                 "name": "Liberty Complete",
