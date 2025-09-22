@@ -2,6 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         "Requires establishing embassies to conduct advanced diplomacy",
+        "Notified of new Barbarian encampments",
         "[-25]% unhappiness from the number of cities",
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
