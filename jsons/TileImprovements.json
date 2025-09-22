@@ -120,7 +120,7 @@
 			"[+3 Food] <with [6] to [6] neighboring [Terrace farm] tiles> <hidden from users>",
 			"Comment [+1 ⁂Food for every 2 adjacent [Terrace farm]]",
 			"[+1 Production] from [Fresh water] tiles",
-			"Provides [2] [Housing]",
+			"Provides [1] [Housing]",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
