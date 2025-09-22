@@ -12,7 +12,7 @@
                 "name": "Tradition1",
                 "uniques": [ 
                     "[-25]% Culture cost of natural border growth [in all cities]",
-                    "[+2 Culture] [in all cities]"
+                    "[+1 Culture] [in all cities]"
                 ],"row": 1,"column": 1
             },
             {
@@ -42,7 +42,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+25]% Great Person generation [in capital]",
-                    "[+1 Culture] from every specialist [in all cities]"
+                    "[+1 Culture] from every specialist [in capital]"
                 ]
             }
         ]
@@ -53,13 +53,13 @@
         "uniques": [
             "Unavailable <after adopting [Tradition]>",
             "[+1 Science] per [3] population [in capital]",
-            "[+2 Gold] [in all cities]",
+            "[+1 Culture] [in all cities]",
         ],
         "policies": [
             {
                 "name": "Progress1",
                 "uniques": [
-                    "[+2 Science, +2 Food] from each Trade Route",
+                    "[+2 Science, +2 Gold] from each Trade Route",
                     "[-25]% maintenance on road & railroads"
                 ],"row": 1,"column": 1
             },
@@ -74,7 +74,11 @@
                 "name": "Progress3",
                 "uniques": [
                     "[+1 Science] per [2] social policies adopted",
-                    "Gain [25] [Culture] <upon discovering [all] technology>",
+                    "Comment [Gain +25 ♪Culture every time you research a technology.]",
+                    "Comment [Gain additional +25 ♪Culture for every next era you enter]",
+                    "Gain [25] [Culture] <upon discovering [all] technology> <during the [Ancient era]> <hidden from users>",
+                    "Gain [50] [Culture] <upon discovering [all] technology> <during the [Classical era]> <hidden from users>",
+                    "Gain [75] [Culture] <upon discovering [all] technology> <during the [Post-Classical era]> <hidden from users>",
                 ],"row": 1,"column": 5
             },
             {
@@ -88,7 +92,7 @@
             {
                 "name": "Progress Complete",
                 "uniques": [
-                    "[+1 Gold, +3 Production] [in all cities]",
+                    "[+2 Production, +2 Gold] [in all cities]",
                 ]
             }
         ]
@@ -118,8 +122,8 @@
             {
                 "name": "Subservience3",
                 "uniques": [
-                    "[-25]% unhappiness from the number of cities",
-                    "[+2 Production] from each Trade Route",
+                    "[-25]% Unhappiness from [Specialists] [in all cities]",
+                    "[+1 Culture] per [5] population [in all cities]",
                 ],
                 "requires": ["Subservience1"],"row": 2,"column": 2
             },
@@ -135,7 +139,7 @@
                 "name": "Subservience Complete",
                 "uniques": [
                     "[+25]% Food is carried over after population increases [in all cities]",
-                    "[+1 Happiness] per [5] social policies adopted"
+                    "[+20]% Golden Age length"
                 ]
             }
         ]
@@ -188,44 +192,41 @@
         "name": "Dominion",  "era": "Ancient era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": [
-            "Unavailable <after adopting [Vigilance]>",
-            "[15]% growth [in all cities]",
-            "[-20]% Unhappiness from [Population] [in all cities]"
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Notified of new Barbarian encampments"
         ],
         "policies": [
             {
                 "name": "Dominion1",
-                "uniques": [ 
-                    "[+1 Gold] per [5] population [in all cities]",
-                ],"row": 1,"column": 1
+                "uniques": [
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                ],"row": 1,"column": 2
             },
             {
                 "name": "Dominion2",
                 "uniques": [
-                    "[+2 Food] [in capital]",
-                ],"row": 1,"column": 3
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                ],"row": 1,"column": 4
             },
             {
                 "name": "Dominion3",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-                    "[+1 Science] per [4] population [in capital]",
+                    "[+50]% XP gained from combat <for [Military] units>"
                 ],
-                "requires": ["Dominion1"],"row": 2,"column": 2
+                "requires": ["Warrior Code"],"row": 2,"column": 2
             },
             {
                 "name": "Dominion4",
                 "uniques": [
-                    "Provides [4] [Health] <in [Capital] cities>",
-                    "Provides [4] [Housing] <in [Capital] cities>",
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
-                "requires": ["Dominion2"],"row": 2,"column": 3
+                "requires": ["Discipline"],"row": 2,"column": 4
             },
             {
                 "name": "Dominion Complete",
                 "uniques": [
-                    "[+25]% Great Person generation [in capital]",
-                    "[+1 Culture] from every specialist [in all cities]"
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
                 ]
             }
         ]
@@ -235,28 +236,32 @@
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "Unavailable <after adopting [Dominion]>",
-            "[+1 Science] per [2] social policies adopted",
-            "[+2 Gold] [in all cities]",
+            "[+2 Culture] [in all cities with a garrison]",
+            "Units in cities cost no Maintenance",
         ],
         "policies": [
             {
                 "name": "Vigilance1",
                 "uniques": [
-                    "[+2 Science, +2 Food] from each Trade Route",
-                ],"row": 1,"column": 1
+                    "Can build [Fort] improvements at a [+25]% rate",
+                    "[+2 Production] from [Fort] tiles [in all cities] <when at war>",
+                    "[+1 Science, +1 Gold] from [Fort] tiles [in all cities] <when not at war>",
+                ],"row": 1,"column": 2
             },
             {
                 "name": "Vigilance2",
                 "uniques": [
-                    "Can build [all] improvements at a [+25]% rate",
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
                     "Free [Worker] appears",
-                ],"row": 1,"column": 3
+                ],"row": 1,"column": 4
             },
             {
                 "name": "Vigilance3",
                 "uniques": [
-                    "Gain [25] [Culture] <upon discovering [all] technology>",
-                ],"row": 1,"column": 5
+                    "[+1 Happiness] from all [Pallisade] buildings",
+                    "[+1 Happiness] from all [Walls] buildings",
+                ],
+                "requires": ["Vigilance1"],"row": 2,"column": 1
             },
             {
                 "name": "Vigilance4",
@@ -264,12 +269,13 @@
                     "[+15]% Production when constructing [Buildings] buildings [in all cities]",
                     "Gain [25] [Gold] <upon constructing [Building]>",
                 ],
-                "requires": ["Vigilance2"],"row": 2,"column": 3
+                "requires": ["Vigilance2"],"row": 2,"column": 5
             },
             {
                 "name": "Vigilance Complete",
                 "uniques": [
-                    "[+1 Gold, +3 Production] [in all cities]",
+                    "[15]% Strength decreasing with distance from the capital",
+                    "[15]% City Strength from defensive buildings",
                 ]
             }
         ]
