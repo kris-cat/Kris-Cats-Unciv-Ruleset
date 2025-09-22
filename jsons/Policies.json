@@ -41,7 +41,7 @@
                 "uniques": [
                     "[+1 Culture, +1 Science] from every specialist [in capital]",
                 ],
-                "requires": ["Tradition3","Tradition4"],"row": 2,"column": 5
+                "requires": ["Tradition3","Tradition4"],"row": 3,"column": 3
             },
             {
                 "name": "Tradition Complete",
@@ -97,6 +97,14 @@
                     "Gain [25] [Gold] <upon constructing [Building]>",
                 ],
                 "requires": ["Progress2"],"row": 2,"column": 3
+            },
+            {
+                "name": "Progress5",
+                "uniques": [
+                    "[+15]% Production when constructing [Buildings] buildings [in all cities]",
+                    "Gain [25] [Gold] <upon constructing [Building]>",
+                ],
+                "requires": ["Progress1","Progress4"],"row": 3,"column": 1
             },
             {
                 "name": "Progress Complete",
