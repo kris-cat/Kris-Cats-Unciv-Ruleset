@@ -38,7 +38,6 @@
         "Provides [1] [Goods Industry Slot] <in cities with at least [26] [Population]>",
         
         // Housing
-        "[-9999 Food] [in this city] <when below [0] [Housing]>",
         
         "Provides [6] [Housing] <in [all] cities>",
         "Provides [-2] [Housing] <in cities with at least [1] [Population]>",
@@ -92,8 +91,9 @@
         "Provides [-2] [Housing] <in cities with at least [49] [Population]>",
         "Provides [-2] [Housing] <in cities with at least [50] [Population]>",
 
+        "[-9999 Food] [in this city] <when below [0] [Housing]>",
+
         // Health
-        "[-1 Food] per [1] population [in this city] <when below [0] [Health]>",
 
         "Provides [3] [Health] <in [all] cities>",
         "Provides [-1] [Health] <in cities with at least [1] [Population]>",
@@ -146,5 +146,7 @@
         "Provides [-1] [Health] <in cities with at least [48] [Population]>",
         "Provides [-1] [Health] <in cities with at least [49] [Population]>",
         "Provides [-1] [Health] <in cities with at least [50] [Population]>",
+
+        "[-1 Food] per [1] population [in this city] <when below [0] [Health]>",
     ]
 }
