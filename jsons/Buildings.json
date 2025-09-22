@@ -324,8 +324,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+25]% Strength for cities <when attacking>",
-			"[+25]% Strength for cities <when defending>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -591,8 +589,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Organised Warfare",
 		"uniques": [
-			"[+50]% Strength for cities <when attacking>",
-			"[+50]% Strength for cities <when defending>",
 			"Destroyed when the city is captured"
 		]
 	},
