@@ -239,9 +239,8 @@
 		"uniques": [
 			"Science Building",
 			"[+1 Science] from [Mountain] tiles [in this city]",
-			"Enables conversion of city production to [Science] <in this city>"
+			"Must have an owned [Mountain] within [2] tiles",
 		]
-		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Stonehenge",
@@ -495,29 +494,17 @@
 	// Ancient Era - Fourth Column
 	{
 		"name": "Library",
-		"requiredBuilding": "Ancient Observatory",
-		"science": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[+1 Science] per [3] population [in this city]",
 			"Only available <in cities without a [School]>",
 		],
 		"requiredTech": "Writing"
-	},
-	{
-		"name": "School",
-		"requiredBuilding": "Ancient Observatory",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": [
-			"Only available <in cities without a [Library]>",
-			"[+1 Science] per [3] population [in this city]"
-		],
-		"requiredTech": "Writing"
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Paper Maker",
-		"requiredBuilding": "Ancient Observatory",
 		"replaces": "Library",
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
@@ -527,6 +514,7 @@
 			"Only available <in cities without a [School]>",
 		],
 		"requiredTech": "Writing"
+		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "The Great Library",
@@ -908,5 +896,17 @@
 		"culture": 6,
 		"isWonder": true,
 		"requiredTech": "Military Training",
+	},
+	//Post-Classical Era - First Column
+	//Post-Classical Era - Second Column
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
 	},
 ]
