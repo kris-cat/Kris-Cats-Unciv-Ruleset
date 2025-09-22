@@ -10,39 +10,48 @@
         "policies": [
             {
                 "name": "Tradition1",
-                "uniques": [ 
-                    "[-25]% Culture cost of natural border growth [in all cities]",
-                    "[+1 Culture] [in all cities]"
+                "uniques": [
+                     "[+1 Gold, +1 Happiness] per [2] population [in capital]",
                 ],"row": 1,"column": 1
             },
             {
                 "name": "Tradition2",
                 "uniques": [
+                    "Provides [2] [Health] <in [Capital] cities>",
+                    "Provides [4] [Housing] <in [Capital] cities>",
                     "[+2 Food] [in capital]",
-                    "[-50]% Food consumption by specialists [in capital]",
                 ],"row": 1,"column": 5
             },
             {
                 "name": "Tradition3",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-                    "[+1 Science] per [3] population [in capital]",
+                    "[-25]% Culture cost of natural border growth [in all cities]",
                 ],
                 "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 1
             },
             {
                 "name": "Tradition4",
                 "uniques": [
-                    "Provides [4] [Health] <in [Capital] cities>",
-                    "Provides [4] [Housing] <in [Capital] cities>",
+                    "[-50]% Food consumption by specialists [in capital]",
                 ],
                 "requires": ["Tradition2"],"row": 2,"column": 5
             },
             {
+                "name": "Tradition5",
+                "uniques": [
+                    "[+1 Culture, +1 Science] from every specialist [in capital]",
+                ],
+                "requires": ["Tradition3","Tradition4"],"row": 2,"column": 5
+            },
+            {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+25]% Great Person generation [in capital]",
-                    "[+1 Culture] from every specialist [in capital]"
+                    "[+15]% growth [in all cities]",
+                    "Comment [+10% non-⁂Food, non-⌣Happiness yields in capital]",
+                    "[+10]% [Production] [in capital] <hidden from users>",
+                    "[+10]% [Faith] [in capital] <hidden from users>",
+                    "[+10]% [Culture] [in capital] <hidden from users>",
+                    "[+10]% [Science] [in capital] <hidden from users>"
                 ]
             }
         ]
